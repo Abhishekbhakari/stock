@@ -7,6 +7,8 @@ import StatsCards from "@/components/stats-cards"
 import Testimonials from "@/components/testimonials"
 import TestimonialSection from "@/components/testimonialssection"
 import InvestmentApproach from "@/components/investment-approach"
+import ClientTestimonials from "@/components/Client-testimonials"
+import OurProducts from "@/components/products"
 
 const tabContent = {
   marketDirection: {
@@ -151,7 +153,9 @@ export default function Home() {
         relativePrice={tabContent.relativePrice}
         sellingRules={tabContent.sellingRules}
       />
+        <OurProducts />
         <Testimonials />
+        <ClientTestimonials />
         <CTA />
         <Footer />
       </div>
