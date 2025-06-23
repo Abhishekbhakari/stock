@@ -5,7 +5,7 @@ export default function CTA() {
     <section className="relative bg-black py-16 md:py-24">
       {/* Navigation Tabs */}
       <div className="container flex gap-6 text-white text-lg font-semibold uppercase">
-        <span className="text-yellow-400 border-b-2 border-yellow-400">Reporting</span>
+        <span className="text-yellow-400 border-b-2 border-yellow-400">Communication Table</span>
       </div>
       
       {/* CTA Content */}
@@ -13,14 +13,23 @@ export default function CTA() {
         {/* Text Section */}
         <div className="md:w-2/3 text-black">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
-            We Report on the Metrics <br className="hidden md:block" /> That <span className="text-black">Really Matter</span>
+            Contact Us
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed mb-4">
-            Not just leads and CPL—our job is to look all the way down the funnel—to SQL, Opportunity, and Customers—to figure out what’s working and what isn’t.
-          </p>
-          <p className="text-lg font-semibold">
-            Our reporting is done automagically, so you’ll never be in the dark.
-          </p>
+         
+           <div className=" text-lg">           <div>
+             <p><strong>Name of RA:</strong> Gaurav Shriram Kulkarni</p>
+             <p><strong>Entity Type:</strong> Individual</p>
+             <p><strong>Registration No.:</strong> INH000009311</p>
+             <p><strong>BSE Enlistment No.:</strong> 5534</p>
+             <p><strong>Trade Name:</strong> Gaurav Shriram Kulkarni</p>
+           </div>
+           <div>
+             <p><strong>Residential/ Registered Address:</strong><br />
+             Flat no 506, A wing, Kesar valley, Patil Nagar, Chikhali, Pune, Maharashtra, 411062             </p>
+      <p><strong>Contact No.:</strong> 9970664299</p>
+             <p><strong>Email No.:</strong> <a href="mailto:researchanalyst92@gmail.com" className="">researchanalyst92@gmail.com</a></p>
+           </div>
+        </div>
         </div>
         
         {/* Image Section */}

@@ -1,133 +1,137 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
-import Features from "@/components/features"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
 import StatsCards from "@/components/stats-cards"
 import Testimonials from "@/components/testimonials"
 import TestimonialSection from "@/components/testimonialssection"
 import InvestmentApproach from "@/components/investment-approach"
-import ClientTestimonials from "@/components/Client-testimonials"
 import OurProducts from "@/components/products"
+import RunningStrip from "@/components/Marque"
 
 const tabContent = {
   marketDirection: {
-    title: "Market",
-    subtitle: "direction",
+    title: "Data-Driven Insights",
+    subtitle: "Numbers Speak, We Listen",
     description:
-      "Understanding market direction is crucial for successful investing. We analyze trends to position your investments for maximum growth.",
+      "Our investment decisions are rooted entirely in verifiable data — not opinions, hype, or market noise.",
     bulletPoints: [
       {
-        title: "Trend analysis:",
+        title: "Analytical Backbone:",
         content:
-          "We track market indicators to identify bullish or bearish trends before making investment decisions.",
+          "We conduct in-depth analysis of key financial statements including the Profit & Loss, Balance Sheet, and Cash Flow statements.",
       },
       {
-        title: "Economic indicators:",
+        title: "Quantitative Discipline:",
         content:
-          "Our team monitors key economic data to anticipate market movements and adjust strategies accordingly.",
+          "We leverage valuation ratios and metrics to uncover true stock value and avoid overhyped plays.",
       },
     ],
     conclusion:
-      "Aligning with the market's direction puts the wind at your back and increases your chances of investment success.",
+      "Data is our compass — not guesswork. Every move we make is backed by factual, historical, and predictive financial evidence.",
   },
   industryRanking: {
-    title: "Industry",
-    subtitle: "ranking",
+    title: "Fundamental First Approach",
+    subtitle: "Substance Over Sentiment",
     description:
-      "Not all industries perform equally. We identify the strongest sectors poised for growth to maximize your investment potential.",
+      "We don’t just chase market trends or macro stories. Our focus lies in business fundamentals — the real story behind every ticker.",
     bulletPoints: [
       {
-        title: "Sector rotation:",
-        content: "We identify which industries are leading in the current economic cycle and which are lagging.",
+        title: "Company-Centric View:",
+        content:
+          "We assess each business on its own financial and operational merit.",
       },
       {
-        title: "Growth potential:",
+        title: "Valuation-Driven Decisions:",
         content:
-          "Our analysis focuses on industries with sustainable competitive advantages and long-term growth prospects.",
+          "Our entries are backed by value, not volatility.",
       },
     ],
-    conclusion: "Investing in leading industries significantly improves your odds of finding winning stocks.",
+    conclusion:
+      "The stock market may be noisy — but fundamentals always speak clearly. We listen to them.",
   },
   leadingStock: {
-    title: "Leading",
-    subtitle: "Stock",
+    title: "Bottom-Up Selection",
+    subtitle: "One Stock at a Time",
     description:
-      "Don't let past success blind you to the hidden gems of tomorrow's stock market. At stockaxis, we're all about identifying the real leaders.",
+      "We don’t believe in buying sectors — we believe in buying businesses. Our selection starts from the stock level and builds upward.",
     bulletPoints: [
       {
-        title: "Past / future:",
+        title: "Micro before Macro:",
         content:
-          "We get it. Yesterday's stars may lose their shine. That's why we focus on the future, not sentimentality.",
+          "Economic and sector data take a backseat — we prioritize each stock’s unique performance and potential.",
       },
       {
-        title: "Seeds of growth:",
+        title: "Independent Stock Stories:",
         content:
-          "We select stocks with strong earnings and promising growth potential. These rising stars disrupt outdated players and introduce exciting innovations.",
+          "Each company we invest in is evaluated independently, without bias toward trends.",
       },
     ],
-    conclusion: "Investing in them means riding the wave of their success and reaping the rewards.",
+    conclusion:
+      "We believe a strong company can outperform even in a weak sector — that’s where true opportunities lie.",
   },
   acceleration: {
-    title: "Acceleration",
-    subtitle: "in earnings",
+    title: "Continuous Monitoring",
+    subtitle: "Discipline After Purchase",
     description:
-      "Earnings acceleration is one of the most powerful indicators of stock price growth. We look for companies showing increasing rates of change in earnings.",
+      "Our commitment doesn’t stop at buying. We consistently track every holding’s fundamentals and market behavior — and exit when the data tells us to.",
     bulletPoints: [
       {
-        title: "Growth trajectory:",
-        content: "We identify companies with accelerating, not just growing, earnings to find stocks with momentum.",
+        title: "Fundamental Tracking:",
+        content:
+          "We monitor earnings reports, cash flows, and balance sheet updates post-investment.",
       },
       {
-        title: "Sustainable advantage:",
+        title: "Exit by Change, Not Emotion:",
         content:
-          "Our analysis focuses on companies with business models that can sustain earnings growth over multiple quarters.",
+          "If financial quality declines or price diverges from reality — we sell, fast and decisively.",
       },
     ],
     conclusion:
-      "Companies with accelerating earnings often see their stock prices follow the same upward trajectory.",
+      "Holding without discipline can erode returns. That’s why we’re as focused on exits as we are on entries.",
   },
   relativePrice: {
-    title: "Relative Price",
-    subtitle: "strength",
+    title: "Review & Re-Evaluation",
+    subtitle: "Stay Dynamic",
     description:
-      "Strong stocks tend to remain strong. We identify stocks outperforming the market and their industry peers.",
+      "We believe in ongoing reflection — revisiting each investment’s performance regularly ensures nothing is held out of habit.",
     bulletPoints: [
       {
-        title: "Momentum analysis:",
+        title: "Performance Check-ins:",
         content:
-          "We track stocks that consistently outperform the broader market, indicating institutional accumulation.",
+          "Periodic reassessments of earnings, ratios, and business outlook guide us toward staying or exiting.",
       },
       {
-        title: "Technical patterns:",
+        title: "Adaptive Strategy:",
         content:
-          "Our team identifies constructive chart patterns that suggest continued price strength and momentum.",
+          "When the story changes, we adapt — quickly, with no emotional attachment.",
       },
     ],
     conclusion:
-      "Stocks showing relative strength tend to continue outperforming, creating opportunities for significant gains.",
+      "Re-evaluation protects capital. We grow by questioning even our best decisions.",
   },
   sellingRules: {
-    title: "Selling",
-    subtitle: "rules",
+    title: "Exit Discipline",
+    subtitle: "Sell When the Data Speaks",
     description:
-      "Knowing when to sell is just as important as knowing what to buy. Our disciplined selling rules protect your capital and lock in gains.",
+      "We don't believe in buy-and-forget. Every investment has an exit strategy, triggered by data-driven signals.",
     bulletPoints: [
       {
-        title: "Profit taking:",
+        title: "Defined Exit Triggers:",
         content:
-          "We establish clear profit targets to help you capture gains at optimal points in a stock's growth cycle.",
+          "Fundamental deterioration or technical weakness means it's time to sell — without delay.",
       },
       {
-        title: "Risk management:",
+        title: "Emotional Detachment:",
         content:
-          "Our stop-loss strategies help minimize losses when a stock's fundamentals deteriorate or technical patterns break down.",
+          "We follow data, not hope. Our exit rules are based on strategy, not attachment.",
       },
     ],
     conclusion:
-      "Disciplined selling rules are essential for preserving capital and maximizing returns over the long term.",
+      "Every great entry deserves a smart exit. That’s how we protect capital and keep compounding.",
   },
 }
+
 
 export default function Home() {
   return (
@@ -141,25 +145,65 @@ export default function Home() {
 
       <div className="relative z-10">
         <Navbar />
-        <Hero />
-        <TestimonialSection />
-        {/* <Features /> */}
-        <StatsCards />
-        <InvestmentApproach
-        marketDirection={tabContent.marketDirection}
-        industryRanking={tabContent.industryRanking}
-        leadingStock={tabContent.leadingStock}
-        acceleration={tabContent.acceleration}
-        relativePrice={tabContent.relativePrice}
-        sellingRules={tabContent.sellingRules}
-      />
-        <OurProducts />
-        <Testimonials />
-        <ClientTestimonials />
-        <CTA />
+        
+        {/* Hero Section */}
+        <div className="bg-black pb-16 md:pb-24">
+          <Hero />
+        </div>
+
+              <RunningStrip />
+        
+        {/* Testimonial Section */}
+        <div className=" bg-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <TestimonialSection />
+          </div>
+        </div>
+        
+        {/* Stats Cards */}
+        <div className="py-16 md:py-12 bg-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <StatsCards />
+          </div>
+        </div>
+        
+        {/* Investment Approach */}
+        <div className="  bg-black dark:bg-gray-900">
+          <div className="">
+            <InvestmentApproach
+              marketDirection={tabContent.marketDirection}
+              industryRanking={tabContent.industryRanking}
+              leadingStock={tabContent.leadingStock}
+              acceleration={tabContent.acceleration}
+            />
+          </div>
+        </div>
+        
+        {/* Products Section */}
+        <div className="py-16 md:py-24 bg-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <OurProducts />
+          </div>
+        </div>
+
+  
+        
+        {/* Testimonials */}
+        <div className=" bg-black dark:bg-gray-900">
+          <div className="">
+            <Testimonials />
+          </div>
+        </div>
+        
+        {/* CTA Section */}
+        <div className="py-16 md:py-24 bg-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <CTA />
+          </div>
+        </div>
+        
         <Footer />
       </div>
     </div>
   )
 }
-

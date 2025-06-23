@@ -23,56 +23,52 @@ const testimonials = [
 
 export default function ClientTestimonials() {
   return (
-    <section className="py-16 bg-[#faf9f5]">
-      <div className="container mx-auto">
-        <div className="flex items-start mb-8">
-          <div className="relative">
-            <div className="absolute -left-12 top-4 border-t border-l border-[#5d7a5d] h-12 w-12"></div>
-            <div className="flex items-center gap-3">
-              <Image
-                src="/placeholder.svg?height=24&width=24"
-                alt="Leaf icon"
-                width={24}
-                height={24}
-                className="text-[#5d7a5d]"
-              />
-              <h2 className="text-2xl font-medium text-[#5d7a5d]">What our Clients</h2>
-            </div>
-            <p className="ml-9 text-2xl font-medium text-gray-700">say about us</p>
+    <section className="relative bg-[#fbf9f3] py-20 px-4">
+      {/* Background accent */}
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#5d7a5d] to-[#a0b289]"></div>
+
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="mb-16 text-center">
+          <div className="inline-flex items-center justify-center gap-3 mb-4">
+            <Image
+              src="/placeholder.svg?height=30&width=30"
+              alt="Leaf"
+              width={30}
+              height={30}
+            />
+            <h2 className="text-3xl font-bold text-[#5d7a5d] tracking-tight">What Our Clients Say</h2>
           </div>
-          <div className="ml-auto">
-            <p className="text-right text-gray-700">Postcards of Appreciation</p>
-          </div>
+          <p className="text-gray-700">Voices of trust and transformation</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Testimonials */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="border border-gray-300 bg-white p-6 rounded-sm">
-              <div className="flex justify-center mb-4">
-                <div className="border border-gray-300 p-1 inline-block">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Postcard icon"
-                    width={60}
-                    height={60}
-                    className="opacity-70"
-                  />
-                </div>
-              </div>
-              <p className="text-sm italic text-gray-700 mb-8">"{testimonial.quote}"</p>
-              <div className="flex items-center gap-3">
-                <div className="bg-[#f8f3e4] rounded-full p-1">
-                  <Image
-                    src="/placeholder.svg?height=40&width=40"
-                    alt={testimonial.name}
-                    width={40}
-                    height={40}
-                    className="rounded-full"
-                  />
-                </div>
+            <div
+              key={index}
+              className="relative bg-white border border-gray-200 rounded-lg shadow-md p-6 transition duration-300 hover:scale-[1.02]"
+            >
+              {/* Decorative Quote */}
+              <div className="text-6xl text-[#5d7a5d] absolute -top-6 left-4 opacity-10 font-serif">“</div>
+
+              {/* Quote Text */}
+              <p className="text-gray-700 text-sm leading-relaxed italic mb-6 mt-4 relative z-10">
+                {testimonial.quote}
+              </p>
+
+              {/* Author Section */}
+              <div className="flex items-center gap-4 mt-auto">
+                <Image
+                  src="/placeholder.svg?height=40&width=40"
+                  alt={testimonial.name}
+                  width={40}
+                  height={40}
+                  className="rounded-full border border-[#f8f3e4] bg-[#f8f3e4] p-1"
+                />
                 <div>
-                  <p className="font-medium text-sm">{testimonial.name}</p>
-                  <p className="text-xs text-gray-600">{testimonial.position}</p>
+                  <p className="text-sm font-semibold text-gray-900">{testimonial.name}</p>
+                  <p className="text-xs text-gray-500">{testimonial.position}</p>
                 </div>
               </div>
             </div>

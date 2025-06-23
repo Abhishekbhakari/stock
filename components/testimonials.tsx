@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Card, CardContent } from "@/components/ui/card"
 
 const testimonials = [
   {
@@ -8,6 +7,7 @@ const testimonials = [
     content:
       "Amane Soft's AI-driven analytics platform has revolutionized our decision-making process. The insights we've gained have been invaluable.",
     image: "/placeholder.svg?height=100&width=100",
+    color: "gold",
   },
   {
     name: "Michael Chen",
@@ -15,6 +15,7 @@ const testimonials = [
     content:
       "The cloud migration solution provided by Amane Soft was seamless. Their expertise in handling complex systems is truly impressive.",
     image: "/placeholder.svg?height=100&width=100",
+    color: "peach",
   },
   {
     name: "Emily Rodriguez",
@@ -22,38 +23,56 @@ const testimonials = [
     content:
       "Amane Soft's cybersecurity enhancements have significantly strengthened our defenses. Their proactive approach gives us peace of mind.",
     image: "/placeholder.svg?height=100&width=100",
+    color: "gold",
   },
 ]
 
 export default function Testimonials() {
   return (
-    <section className="container py-24 md:py-32">
-      <h2 className="mb-12 text-center font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">
-        What Our Clients Say
-      </h2>
-      <div className="grid gap-8 md:grid-cols-3">
-        {testimonials.map((testimonial, index) => (
-          <Card key={index} className="bg-background/60 backdrop-blur">
-            <CardContent className="p-6">
-              <div className="flex items-center space-x-4 mb-4">
-                <Image
-                  src={testimonial.image || "/placeholder.svg"}
-                  alt={testimonial.name}
-                  width={50}
-                  height={50}
-                  className="rounded-full"
-                />
-                <div>
-                  <h3 className="font-semibold">{testimonial.name}</h3>
-                  <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+    <section className="relative px-4 py-16 md:py-24 bg-black">
+      {/* Background Gradient */}
+      <div className="absolute inset-0 -z-10 h-full w-full [background:radial-gradient(125%_125%_at_50%_10%,#1E003A_30%,#090A31_100%)]" />
+
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
+          What Our <span className="text-yellow-400">Clients Say</span>
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="relative">
+              {/* Stacked card effect */}
+              <div
+                className={`absolute inset-0 ${
+                  testimonial.color === "gold" ? "bg-[#FFC84A]" : "bg-[#FFB680]"
+                } transform translate-x-2 translate-y-2`}
+              />
+
+              {/* Main card */}
+              <div
+                className={`relative p-6 md:p-8 min-h-[280px] flex flex-col justify-between ${
+                  testimonial.color === "gold" ? "bg-[#fcfcfc] text-black" : "bg-[#f9f9f8] text-black"
+                }`}
+              >
+                <div className="flex items-center gap-4 mb-4">
+                  <Image
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    width={50}
+                    height={50}
+                    className="rounded-full border border-gray-300"
+                  />
+                  <div>
+                    <p className="font-bold">{testimonial.name}</p>
+                    <p className="text-sm opacity-80">{testimonial.role}</p>
+                  </div>
                 </div>
+                <p className="text-md font-medium italic">"{testimonial.content}"</p>
               </div>
-              <p className="text-muted-foreground italic">"{testimonial.content}"</p>
-            </CardContent>
-          </Card>
-        ))}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
 }
-

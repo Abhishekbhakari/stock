@@ -26,6 +26,12 @@ export default function Navbar() {
           <Link href="/investorcharter" className="transition-colors hover:text-primary" onClick={() => setIsOpen(false)}>
             Investor Charter
           </Link>
+          <Link href="/InvestmentPhilosophy" className="transition-colors hover:text-primary" onClick={() => setIsOpen(false)}>
+            Investment Philosophy
+          </Link>
+          <Link href="/products" className="transition-colors hover:text-primary" onClick={() => setIsOpen(false)}>
+            Products
+          </Link>
         </nav>
         <div className="hidden md:flex items-center space-x-4">
           {/* <Link href="https://github.com/amanesoft" target="_blank" rel="noreferrer"> */}

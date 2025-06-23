@@ -1,8 +1,7 @@
 "use client";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 const stats = [
   { number: 0, description: "Recieved during the month" },
@@ -13,16 +12,6 @@ const stats = [
 ];
 
 export default function StatsCards() {
-  const [counts, setCounts] = useState(stats.map(() => 0));
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCounts(stats.map(() => Math.floor(Math.random() * 100)));
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section className="relative py-16">
       {/* Background Glow Effect */}
@@ -33,14 +22,18 @@ export default function StatsCards() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="text-center text-4xl font-extrabold text-white sm:text-5xl"
+        className="text-center flex gap-2 px-3 text-2xl font-extrabold text-white md:text-3xl"
       >
         Number of Complaints <span className="text-lime-400">.</span>
+                      <svg className="md:w-38 h-8 ml-2 w-20 " width="100" height="32" viewBox="0 0 89 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.00366298 9.45249L0.0117188 12.1226L74.9997 11.8963L74.9916 9.22624L0.00366298 9.45249Z" fill="white"></path>
+              <path d="M86.9609 10.2606L68.814 19.2435L68.6782 1.57178L86.9609 10.2606Z" fill="#FDCD00"></path>
+              <path d="M67.7719 0.169433L88.9961 10.2611L67.9303 20.6696L67.7719 0.169433ZM84.9232 10.2837L69.5594 2.9752L69.6726 17.8186L84.9232 10.2837Z" fill="white"></path>
+              </svg>
       </motion.h2>
 
       {/* Stats Cards */}
-      <div className="container mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 bg-yellow-400 p-6 rounded-lg
-">
+      <div className="container mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 bg-black p-6 rounded-lg">
         {stats.map((stat, index) => (
           <motion.div
             key={index}
@@ -48,11 +41,7 @@ export default function StatsCards() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
             whileHover={{ scale: 1.1 }}
-            className="relative overflow-hidden rounded-xl p-6 shadow-xl"
-            style={{
-              background: "bg-yellow-400",
-              color: "Black",
-            }}
+            className="relative overflow-hidden p-6 shadow-xl bg-white border-b-2 border-yellow-500 text-black"
           >
             <CardContent className="relative z-10 flex flex-col items-center">
               <motion.p
@@ -60,7 +49,7 @@ export default function StatsCards() {
                 transition={{ duration: 1, repeat: Infinity }}
                 className="text-5xl font-extrabold"
               >
-                {counts[index]}
+                {stat.number}
               </motion.p>
               <p className="mt-2 text-center text-lg font-semibold opacity-80">
                 {stat.description}

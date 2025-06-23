@@ -24,21 +24,21 @@ export default function Hero() {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="bg-gradient-to-br from-green-400 via-white to-green-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl"
-          >
-            Invest in Your Future With
-            <br />
-            SEBI Registered <span className="text-yellow-400">Research Analyst</span>
+            className="text-white text-4xl text-center md:text-left font-extrabold tracking-tight text-transparent sm:text-2xl md:text-6xl lg:text-7xl"
+          ><span className="text-yellow-400">*INVEST*</span>
+          <br />
+             IN YOUR FUTURE .
+
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 0.2 }}
-            className="mx-auto max-w-2xl text-lg text-gray-300 md:text-xl"
+            className="mx-auto max-w-2xl text-center md:text-left text-xl text-gray-300 md:text-xl"
           >
-            We are a SEBI Registered Research Analyst firm that empowers your trading and investment 
-            decisions with cutting-edge stock market research and algorithmic tools.
+            Gaurav Kulkarni is a SEBI Registered Research analyst.
+            “We simplify Equity investment for the investor by doing fundamental analysis on the shares”
           </motion.p>
 
           <motion.div
@@ -47,20 +47,25 @@ export default function Hero() {
             transition={{ duration: 1.4, delay: 0.4 }}
             className="flex flex-col gap-4 sm:flex-row justify-center md:justify-start"
           >
-            <Button
-              size="lg"
-              className="relative px-6 py-3 text-lg font-semibold text-black transition duration-300 hover:bg-yellow-600 hover:shadow-lg hover:shadow-green-500/50"
+            <div
+              
+              className="relative items-center md:items-start flex bg-transparent hover:bg-transparent text-lg font-semibold text-white transition duration-300 "
             >
               Explore Solutions
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
+             
+              <svg className="md:w-48 h-8 ml-2 w-20" width="100" height="32" viewBox="0 0 89 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.00366298 9.45249L0.0117188 12.1226L74.9997 11.8963L74.9916 9.22624L0.00366298 9.45249Z" fill="white"></path>
+              <path d="M86.9609 10.2606L68.814 19.2435L68.6782 1.57178L86.9609 10.2606Z" fill="#FDCD00"></path>
+              <path d="M67.7719 0.169433L88.9961 10.2611L67.9303 20.6696L67.7719 0.169433ZM84.9232 10.2837L69.5594 2.9752L69.6726 17.8186L84.9232 10.2837Z" fill="white"></path>
+              </svg>
+            </div>
+            {/* <Button
               variant="outline"
               size="lg"
               className="relative border border-neutral-50 px-6 py-3 text-lg font-semibold text-neutral-50 transition duration-300 hover:border-x-stone-50 hover:bg-stone-50 hover:text-black hover:shadow-lg hover:shadow-green-500/50"
             >
               Schedule a Demo
-            </Button>
+            </Button> */}
           </motion.div>
         </motion.div>
 
