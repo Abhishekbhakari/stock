@@ -50,7 +50,7 @@ export default function Testimonials() {
 
               {/* Main card */}
               <div
-                className={`relative p-6 md:p-8 min-h-[280px] flex flex-col justify-between ${
+                className={`relative border p-6 md:p-8 min-h-[280px] flex flex-col justify-between ${
                   testimonial.color === "gold" ? "bg-[#fcfcfc] text-black" : "bg-[#f9f9f8] text-black"
                 }`}
               >
