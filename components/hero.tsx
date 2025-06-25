@@ -24,7 +24,7 @@ export default function Hero() {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-white text-4xl text-center md:text-left font-extrabold tracking-tight text-transparent sm:text-2xl md:text-6xl lg:text-7xl"
+            className="text-white text-4xl text-center md:text-left font-black tracking-tight text-transparent sm:text-2xl md:text-6xl lg:text-7xl"
           ><span className="text-yellow-400">*INVEST*</span>
           <br />
              IN YOUR FUTURE .
@@ -77,7 +77,7 @@ export default function Hero() {
           className="flex-1 flex justify-center items-center"
         >
           <Image 
-            src="/banner.png" // Make sure to place the image in the /public folder
+            src="/bannar3.png" // Make sure to place the image in the /public folder
             alt="Stock Market Illustration"
             width={600}
             height={600}
