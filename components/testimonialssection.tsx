@@ -100,7 +100,7 @@ export default function TestimonialSection() {
               />
               {/* Card */}
               <div
-                className={`relative h-[380px] p-6 md:p-8 flex flex-col justify-between border border-black rounded-md shadow-md ${
+                className={`relative h-[320px] p-6 md:p-8 flex flex-col justify-between border border-black rounded-md shadow-md ${
                   testimonial.color === "gold"
                     ? "bg-[#fcfcfc] text-black"
                     : "bg-[#f9f9f8] text-black"
@@ -120,7 +120,7 @@ export default function TestimonialSection() {
                     {testimonial.quote}
                   </p>
                 </div>
-                <div className="mt-4 text-sm font-semibold">
+                <div className="mt-1 text-sm font-semibold">
                   <p>{testimonial.author}</p>
                   <p className="text-gray-600">{testimonial.company}</p>
                 </div>
