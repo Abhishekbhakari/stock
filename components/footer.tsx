@@ -34,27 +34,27 @@ export default function Footer() {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link
                   href="/products"
                   className="text-muted-foreground transition-colors hover:text-black"
                 >
                   Products
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-sm font-medium">Company</h3>
             <ul className="space-y-3 text-sm">
-              <li>
+              {/* <li>
                 <Link
                   href="/about"
                   className="text-muted-foreground transition-colors hover:text-black"
                 >
                   About Us
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/investorcharter"
@@ -124,7 +124,7 @@ export default function Footer() {
                   Code of Conduct
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/contact"
                   className="text-muted-foreground transition-colors hover:text-black"
@@ -139,7 +139,7 @@ export default function Footer() {
                 >
                   Careers
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="space-y-4">

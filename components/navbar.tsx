@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="mr-6 flex items-center space-x-2">
-          <span className="font-bold">Stock</span>
+          <span className="font-bold">Gaurav Kulkarni</span>
         </Link>
         <nav className="hidden md:flex flex-1 items-center space-x-6 text-sm font-medium">
           {/* <Link href="/solutions" className="transition-colors hover:text-primary">
@@ -39,7 +39,6 @@ export default function Navbar() {
               Contact
             </Button>
           </Link>
-          <Button size="sm">Get a Demo</Button>
         </div>
         <div className="md:hidden flex items-center">
           <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>

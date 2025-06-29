@@ -169,7 +169,7 @@ export default function InvestorCharter() {
                 <p className="text-gray-700">
                   For unresolved grievances, investors may approach SEBI through the SCORES portal at 
                   <a href="https://scores.sebi.gov.in" className="text-blue-600 hover:underline ml-1">https://scores.sebi.gov.in</a>. 
-                  SCORES facilitates tracking the status of the complaint.
+                  SCORES facilitates tracking the status of the complaint. For any queries, feedback or assistance, please contact SEBI Office on Toll Free Helpline at 1800 22 7575 / 1800 266 7575
                 </p>
               </div>
             </div>

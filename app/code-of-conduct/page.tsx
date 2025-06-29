@@ -36,9 +36,16 @@ export default function CodeofConduct() {
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
               <p className="text-gray-700">
-                Securities Exchange Board of India vide its Notification No. LAD-NRO/GN/2014-15/07/1414 dated 1st September 2014 has notified SEBI (Research Analysts) Regulations, 2014. These regulations aim to foster transparency in security research and provide investors with reliable and useful information to make informed investment decisions.
+                Securities Exchange Board of India vide its Notification No.
+                LAD-NRO/GN/2014-15/07/1414 dated 1st September 2014 has notified SEBI
+                (Research Analysts) Regulations, 2014. These regulations have been
+                introduced by SEBI with the objective of fostering transparency in
+                security research and provide investors with more reliable and useful
+                information to make investment decisions.
                 <br /><br />
-                According to these Regulations, Research Analysts or Research Entities are required to adhere to the code of conduct as detailed in the THIRD SCHEDULE of the regulations.
+                According to these Regulations, Research Analysts or Research Entity are
+                required to adhere to the below code of conduct (as detailed in the
+                THIRD SCHEDULE of the regulations)
               </p>
             </div>
           </div>
@@ -51,7 +58,11 @@ export default function CodeofConduct() {
             </div>
             <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
               <p className="text-gray-700">
-                This policy is applicable to Gaurav Kulkarni (“RA”), a Research Analyst responsible for preparation or publication of research reports, making recommendations such as ‘buy, sell, hold’, or giving price targets/opinions on listed or to-be-listed securities.
+                The policy shall be applicable to Gaurav Kulkarni ("RA") Research
+                analyst i.e. a person primarily responsible for preparation or publication of the
+                content of the research report; or providing a research report or Making 'buy,
+                sell/hold' or 'overweight / underweight' recommendation or giving price target or offering an
+                opinion on any security that are listed or to be listed on a Stock Exchange.
               </p>
             </div>
           </div>
@@ -72,7 +83,8 @@ export default function CodeofConduct() {
                     Honesty and Good Faith
                   </h3>
                   <p className="text-gray-700">
-                    Act honestly and in good faith in all professional activities.
+                    Research analyst or research entity shall act honestly and in good
+                    faith.
                   </p>
                 </div>
                 
@@ -82,7 +94,8 @@ export default function CodeofConduct() {
                     Diligence
                   </h3>
                   <p className="text-gray-700">
-                    Apply due skill, care, and diligence. Ensure research reports are prepared after thorough analysis.
+                    Research analyst or research entity shall act with due skill, care and
+                    diligence and shall ensure that the research report is prepared after thorough analysis.
                   </p>
                 </div>
                 
@@ -92,17 +105,41 @@ export default function CodeofConduct() {
                     Conflict of Interest
                   </h3>
                   <p className="text-gray-700">
-                    Disclose and address conflicts that may affect impartiality. Avoid trading with material non-public information.
+                    Research analyst or research entity shall effectively address conflict
+                    of interest which may affect the impartiality of its research analysis and research report and shall make
+                    appropriate disclosures to address the same.
+                    <br /><br />
+                    Research Analysts must disclose any potential or actual potential
+                    conflict of interest and implement appropriate measures to manage and mitigate these
+                    conflicts effectively.
+                    <br /><br />
+                    Research Analysts should refrain from trading securities while
+                    possessing material non-public information or engaging in activities that contribute to
+                    market manipulation.
                   </p>
                 </div>
                 
                 <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
                   <h3 className="font-semibold text-gray-900 mb-2 flex items-center">
                     <span className="bg-purple-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.4</span>
-                    Insider Trading
+                    Insider Trading or front running
                   </h3>
                   <p className="text-gray-700">
-                    Employees must not engage in insider trading or use advance knowledge of pending orders for personal gain.
+                    Research analyst or research entity or its employees shall not engage in
+                    insider trading or front running or front running of its own research report.
+                    <br /><br />
+                    No staff member in possession of inside information may be involved in
+                    trading, making recommendations or publishing research with respect to the financial
+                    instruments to which the information relates.
+                    <br /><br />
+                    Front-running is prohibited. There are two ways in which front-running
+                    can arise:
+                    <br /><br />
+                    a) Through use of client or their information, i.e. utilizing the
+                    advantage of advance knowledge of pending orders of clients
+                    <br /><br />
+                    b) Through information about the timing or contents of research prior
+                    to publication to clients
                   </p>
                 </div>
                 
@@ -112,7 +149,8 @@ export default function CodeofConduct() {
                     Confidentiality
                   </h3>
                   <p className="text-gray-700">
-                    Maintain confidentiality of research reports until published publicly.
+                    Research analyst or research entity or its employees shall maintain
+                    confidentiality of report till the report is made public.
                   </p>
                 </div>
               </div>
@@ -125,7 +163,8 @@ export default function CodeofConduct() {
                     Professional Standard
                   </h3>
                   <p className="text-gray-700">
-                    Uphold high standards while preparing and distributing research reports.
+                    Research analyst or research entity or its employees engaged in research
+                    analysis shall observe high professional standard while preparing research report.
                   </p>
                 </div>
                 
@@ -135,17 +174,20 @@ export default function CodeofConduct() {
                     Compliance
                   </h3>
                   <p className="text-gray-700">
-                    Adhere to all applicable regulatory requirements.
+                    Research analyst or research entity shall comply with all regulatory
+                    requirements applicable to the conduct of its business activities.
                   </p>
                 </div>
                 
                 <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
                   <h3 className="font-semibold text-gray-900 mb-2 flex items-center">
                     <span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.8</span>
-                    Responsibility of Management
+                    Responsibility of senior management
                   </h3>
                   <p className="text-gray-700">
-                    Ensure adherence to professional conduct and compliance procedures across the organization.
+                    The senior management of research analyst or research entity shall bear
+                    primary responsibility for ensuring the maintenance of appropriate standards of
+                    conduct and adherence to proper procedures.
                   </p>
                 </div>
                 
@@ -155,7 +197,9 @@ export default function CodeofConduct() {
                     Suitability of Information
                   </h3>
                   <p className="text-gray-700">
-                    Research Analysts must not be incentivized to promote products misaligned with client risk profiles.
+                    Research Analysts must not be incentivized to sell products that do not
+                    align with the general risk profile of their clients. We must prioritize the
+                    suitability of investment products for the client's specific needs and circumstances.
                   </p>
                 </div>
                 
@@ -165,7 +209,12 @@ export default function CodeofConduct() {
                     Sharing of Information
                   </h3>
                   <p className="text-gray-700">
-                    Do not share client information for unauthorized use. Ensure strict data confidentiality.
+                    Research Analysts are strictly prohibited from sharing client
+                    information obtained through their professional dealings for personal gains and any
+                    unauthorized purpose.
+                    <br /><br />
+                    This guideline emphasizes the importance of maintaining client
+                    confidentiality and data privacy.
                   </p>
                 </div>
               </div>
@@ -192,25 +241,25 @@ export default function CodeofConduct() {
           <div className="mb-10 text-black">
             <div className="flex items-center mb-4">
               <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">4</div>
-              <h2 className="text-2xl font-bold text-gray-900">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-gray-900">About Us</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-gray-50 p-5 text-black rounded-lg border-l-4 border-gray-500">
                 <ul className="space-y-3">
                   <li className="flex">
-                    <span className="font-medium w-32">Name:</span>
+                    <span className="font-medium w-40">Name of RA:</span>
                     <span>Gaurav Shriram Kulkarni</span>
                   </li>
                   <li className="flex">
-                    <span className="font-medium w-32">Entity Type:</span>
+                    <span className="font-medium w-40">Entity Type:</span>
                     <span>Individual</span>
                   </li>
                   <li className="flex">
-                    <span className="font-medium w-32">Registration No.:</span>
+                    <span className="font-medium w-40">Registration No.:</span>
                     <span>INH000009311</span>
                   </li>
                   <li className="flex">
-                    <span className="font-medium w-32">BSE Enlistment No.:</span>
+                    <span className="font-medium w-40">BSE Enlistment No.:</span>
                     <span>5534</span>
                   </li>
                 </ul>
@@ -218,19 +267,19 @@ export default function CodeofConduct() {
               <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-gray-500">
                 <ul className="space-y-3">
                   <li className="flex">
-                    <span className="font-medium w-32">Trade Name:</span>
+                    <span className="font-medium w-40">Trade Name:</span>
                     <span>Gaurav Shriram Kulkarni</span>
                   </li>
                   <li className="flex">
-                    <span className="font-medium w-32">Address:</span>
-                    <span>Flat no 506, A wing, Kesar Valley, Patil Nagar, Chikhali, Pune, Maharashtra, 411062</span>
+                    <span className="font-medium w-40">Residential/ Registered Address:</span>
+                    <span>Flat no 506, A wing, Kesar valley, Patil Nagar, Chikhali, Pune, Maharashtra, 411062</span>
                   </li>
                   <li className="flex">
-                    <span className="font-medium w-32">Contact No.:</span>
+                    <span className="font-medium w-40">Contact No.:</span>
                     <span>9970664299</span>
                   </li>
                   <li className="flex">
-                    <span className="font-medium w-32">Email:</span>
+                    <span className="font-medium w-40">Email No.:</span>
                     <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a>
                   </li>
                 </ul>

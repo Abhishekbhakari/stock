@@ -71,10 +71,10 @@ export default function DisclosuresAndDisclaimers() {
           </div>
         </section>
 
-        {/* Research Analyst Details */}
+        {/* Disclosure Document */}
         <section className="bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">1</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">A</div>
             <h2 className="text-2xl font-bold text-gray-900">Descriptions about "Research Analyst"</h2>
           </div>
           
@@ -86,9 +86,9 @@ export default function DisclosuresAndDisclaimers() {
                 <h3 className="text-lg font-semibold text-gray-900">History, Present Business and Background</h3>
               </div>
               <p className="text-gray-700">
-                Research Analyst is registered with SEBI as Research Analyst with Registration No. INH000009311, BSE Membership No. 5534.
-                The firm got its registration on Mar 31, 2022 and is engaged in research and recommendation services. The focus is to provide 
-                research and recommendations to clients, aligning interests with those of the client to provide best-suited services.
+                Research Analyst is registered with SEBI as Research Analyst with Registration No. INH000009311, BSE Membership No. 5534. The firm got its registration on Mar 31, 2022 and is engaged in research and recommendation Services.
+                <br /><br />
+                The focus of Research Analyst is to provide research and recommendations services to the clients. Analyst aligns its interests with those of the client and seeks to provide the best suited services.
               </p>
             </div>
             
@@ -99,7 +99,7 @@ export default function DisclosuresAndDisclaimers() {
                 <h3 className="text-lg font-semibold text-gray-900">Terms and Conditions of Research and Recommendation Services</h3>
               </div>
               <p className="text-gray-700">
-                Terms and conditions are detailed in the Terms and Condition document. Please refer to that document for details.
+                Terms and conditions of Research and Recommendation Services are detailed in the terms and condition document. Please refer to the same for details.
               </p>
             </div>
             
@@ -110,8 +110,9 @@ export default function DisclosuresAndDisclaimers() {
                 <h3 className="text-lg font-semibold text-gray-900">Disciplinary History</h3>
               </div>
               <p className="text-gray-700">
-                No penalties issued by SEBI under the SEBI Act or Regulations related to Research Analyst services. No pending material 
-                litigations, legal proceedings, or findings from regulatory inspections or investigations.
+                i. No penalties have been issued by SEBI under the SEBI Act or Regulations made there under against the Research Analyst relating to Research Analyst services.
+                <br /><br />
+                ii. There are no pending material litigations or legal proceedings, findings of inspections or investigations for which action has been taken or initiated by any regulatory authority against the Research Analyst or its employees.
               </p>
             </div>
             
@@ -119,59 +120,96 @@ export default function DisclosuresAndDisclaimers() {
             <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
               <div className="flex items-center mb-3">
                 <div className="bg-purple-500 w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3">4</div>
-                <h3 className="text-lg font-semibold text-gray-900">Details of Associates</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Details of its associates</h3>
               </div>
               <p className="text-gray-700">
-                No associates.
+                No associates
               </p>
             </div>
-            
-            {/* Research Disclosures */}
+          </div>
+        </section>
+
+        {/* Research Disclosures */}
+        <section className="bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
+          <div className="flex items-center mb-6">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">B</div>
+            <h2 className="text-2xl font-bold text-gray-900">Disclosures with respect to Research and Recommendations Services</h2>
+          </div>
+          
+          <div className="space-y-6">
             <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
-              <div className="flex items-center mb-3">
-                <div className="bg-red-500 w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3">5</div>
-                <h3 className="text-lg font-semibold text-gray-900">Disclosures Regarding Research and Recommendation Services</h3>
-              </div>
-              <ul className="list-disc pl-8 text-red-900 space-y-3">
+              <ul className="space-y-4 text-gray-700">
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>Analyst/relatives may have a financial interest or 1%+ ownership in recommended securities. Disclosures provided at the time of advice.</span>
+                  <span>
+                    Research Analyst or his associate or his relative may have financial interest or actual / beneficial ownership of one per cent or more in the securities recommended in its personal portfolio at the end of the month immediately preceding the date of publication of the research report or date of the public appearance. Details of the same may be referred through the disclosures made at the time of advice.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>No conflict of interest arises with any issuer of securities; any such conflict will be disclosed to the client.</span>
+                  <span>
+                    There are no actual or potential conflicts of interest arising from any connection of Research Analyst or his associate or his relative to or association with any issuer of products/ securities, including any material information or facts that might compromise its objectivity or independence in the carrying on of Research Analyst services. Such conflict of interest shall be disclosed to the client as and when they arise.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>No compensation received from subject company in past 12 months.</span>
+                  <span>
+                    Research Analyst or its associates have not received any compensation from the subject company in past 12 months.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>No public offerings managed/co-managed in past 12 months by the analyst or associates.</span>
+                  <span>
+                    Research Analyst or its employee or its associates have not managed or co-managed the public offering of Subject Company in past 12 months.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>No investment banking or brokerage compensation received from subject companies in past 12 months.</span>
+                  <span>
+                    Research Analyst or its associates have not received any compensation for investment banking or merchant banking of brokerage services from the subject company in past 12 months.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>No compensation or benefits received in connection with research reports or recommendations.</span>
+                  <span>
+                    Research Analyst or its employee or its associates have not received any compensation or other benefits from the subject company or third party in connection with the research report or research recommendations.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>Subject company was not a client in the past 12 months for any services.</span>
+                  <span>
+                    Research Analyst or its associates have not received any compensation for products or services from the subject company in past 12 months.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>No service by the analyst or associates as officer/director/employee of the subject company.</span>
+                  <span>
+                    Research Analyst or its associates have not received any compensation or other benefits from the Subject Company or 3rd party in connection with the research report/ recommendation.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>Not engaged in market-making activities of subject company.</span>
+                  <span>
+                    The subject company was not a client of Research Analyst or its associates during twelve months preceding the date of distribution of the research report and recommendation services provided.
+                  </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                  <span>Research reports are not prepared using artificial intelligence tools.</span>
+                  <span>
+                    Research Analysts or its associates has not served as an officer, director or employee of the subject company.
+                  </span>
+                </li>
+                <li className="flex">
+                  <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                  <span>
+                    Research Analysts has not been engaged in market making activity of the subject company.
+                  </span>
+                </li>
+                <li className="flex">
+                  <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                  <span>
+                    The research analyst is not using/ using artificial intelligence tools for preparation of the research report.
+                  </span>
                 </li>
               </ul>
             </div>
@@ -181,7 +219,7 @@ export default function DisclosuresAndDisclaimers() {
         {/* Statutory Disclaimers */}
         <section className="bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">2</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">C</div>
             <h2 className="text-2xl font-bold text-gray-900">Statutory Disclaimers</h2>
           </div>
           
@@ -193,37 +231,9 @@ export default function DisclosuresAndDisclaimers() {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Important Notice to Investors</h3>
                 <p className="text-gray-700">
-                  Investments in the securities market are subject to market risks. Read all the related documents carefully before investing.
-                  Registration granted by SEBI, membership of BSE, and certification from NISM in no way guarantee the performance of the intermediary 
-                  or provide any assurance of returns to investors.
+                  Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI, membership of BSE and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors.
                 </p>
               </div>
-            </div>
-          </div>
-          
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-              <div className="flex items-center mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <h3 className="font-semibold text-gray-500">Risk Disclosure</h3>
-              </div>
-              <p className="text-gray-700 text-sm">
-                All investments involve risks including potential loss of principal. Past performance is not indicative of future results.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-              <div className="flex items-center mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-                <h3 className="font-semibold text-gray-500">Research Independence</h3>
-              </div>
-              <p className="text-gray-700 text-sm">
-                Our research is independent and not influenced by any issuer of securities or other parties.
-              </p>
             </div>
           </div>
         </section>

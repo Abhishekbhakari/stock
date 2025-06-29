@@ -36,11 +36,13 @@ export default function AMLCDDPolicy() {
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
               <p className="text-gray-700">
-                Provisions of Prevention of Money Laundering Act, 2002 (PMLA) form the core of the legal framework put in place by India to combat money laundering and related crimes. PMLA and the Rules notified thereunder came into force from 1st July, 2005.
+                Provisions of Prevention of Money Laundering Act, 2002 Prevention of Money Laundering Act, 2002 (PMLA) forms the core of legal framework put in place by India to combat money laundering and related crimes. PMLA and the Rules notified there under came into force from 1st July, 2005.
                 <br /><br />
-                It is mandatory for SEBI registered Intermediaries to put in place a system for identifying, monitoring, and reporting suspected money laundering (ML) or terrorist financing (TF) transactions, and a policy for ensuring that SEBI's AML guidelines are complied with.
+                It is mandatory for SEBI registered Intermediary to put in place a system for identifying, monitoring and reporting suspected money laundering (ML) or terrorist financing (TF) transactions to the law enforcement authorities and a policy for ensuring that the anti-money laundering guidelines issued by SEBI from time to time are complied with.
                 <br /><br />
-                Money Laundering involves disguising financial assets to use them without detection. It transforms proceeds from criminal activity into funds with an apparently legal source.
+                Under PMLA, all the entries registered with SEBI are required to furnish information of all the suspicious transactions whether or not made in cash to FIU-IND. Under Section 3 of PMLA, projecting of crime as untainted property is an offence of money laundering liable to be punishment under section 4 of the PMLA.
+                <br /><br />
+                Money Laundering involves disguising financial assets so that they can be used without detection of the illegal activity that produced them. Through money laundering, the launderer transforms the monetary proceeds derived from criminal activity into funds with as apparently legal source.
               </p>
             </div>
           </div>
@@ -53,7 +55,9 @@ export default function AMLCDDPolicy() {
             </div>
             <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
               <p className="text-gray-700">
-                We are committed to examining anti-money laundering strategies regularly, maintaining effective systems and internal controls to generate and scrutinize suspicious alerts, report them, and prevent ML activities.
+                We are committed to examining its anti-money laundering strategies, goals and objectives on an ongoing basis and maintaining an effective anti-money laundering program for its business that reflects the best practices for a diversified, retail financial services.
+                <br /><br />
+                The objective of having an anti-money laundering policy & procedures is to have in place adequate system and internal control that help to generate suspicious alert, scrutinize the matter, report the alerts to proper authority and to prevent money-laundering activities.
               </p>
             </div>
           </div>
@@ -66,7 +70,9 @@ export default function AMLCDDPolicy() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-gray-500">
               <p className="text-gray-700">
-                Set up on November 18, 2004, FIU-IND reports directly to the Economic Intelligence Council. It receives, analyzes, and disseminates suspect financial transaction data and coordinates with enforcement agencies.
+                The Government of India has set up Financial Intelligence Unit (FIU-IND) on November 18, 2004 as an independent body to report directly to the Economic Intelligence Council (EIC) headed by the Finance Minister.
+                <br /><br />
+                FIU-IND is the central national agency of India responsible for receiving, processing, analyzing and disseminating information of suspect financial transactions. FIU-IND is also responsible for coordinating and strengthening efforts of national and international intelligence, investigation and enforcement agencies in combating money laundering and related crimes.
               </p>
             </div>
           </div>
@@ -79,13 +85,31 @@ export default function AMLCDDPolicy() {
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
               <p className="text-gray-700">
-                As per Section 2(1)(g) of PMLA Rules, suspicious transactions:
+                Section 2 (1) (g) of PMLA Rules defines suspicious transaction whether or not made in cash which, to a person acting in good faith:
+                <ul className="list-disc pl-8 mt-3 space-y-2">
+                  <li>Gives rise to a reasonable ground of suspicious that it may involve the proceeds of crime</li>
+                  <li>Appears to be made in circumstances of unusual or unjustified complexity</li>
+                  <li>Appears to have no economic rationale or bona fide purpose</li>
+                  <li>Gives rise to a reasonable ground of suspicious that it may involve facing of the activities relating to terrorism</li>
+                </ul>
               </p>
-              <ul className="list-disc text-gray-800 pl-8 mt-3 space-y-2">
-                <li>May involve proceeds of crime.</li>
-                <li>Appear unusually complex or without economic rationale.</li>
-                <li>Raise suspicion due to possible links with terrorism.</li>
-              </ul>
+            </div>
+          </div>
+
+          {/* Money Laundering */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">5</div>
+              <h2 className="text-2xl font-bold text-gray-900">What is Money Laundering?</h2>
+            </div>
+            <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
+              <p className="text-gray-700">
+                Money Laundering involves disguising financial assets so that they can be used without detection of the illegal activity that produced them. Through money laundering, the launderer transforms the monetary proceeds derived from criminal activity into funds with an apparent legal source. Money laundering is the process by which criminals attempt to hide and disguise the true origin and ownership of the proceeds of their criminal activities.
+                <br /><br />
+                The term "Money Laundering" is also used in relation to the financing of terrorist activity (where the funds may, or may not, originate from crime). Money Laundering is a process of making dirty money look clean.
+                <br /><br />
+                Money is moved around the financial system again and again in such manner that its origin gets hidden.
+              </p>
             </div>
           </div>
 
@@ -99,19 +123,19 @@ export default function AMLCDDPolicy() {
               <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
                 <h3 className="font-semibold text-gray-900 mb-2">Placement</h3>
                 <p className="text-gray-700">
-                  Introducing criminal funds into the financial system, often by structuring transactions.
+                  Placement is the initial stage in which money from criminal activities is placed in financial institutions. One of the most common methods is structuring—breaking up currency transactions into portions below reporting thresholds.
                 </p>
               </div>
               <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
                 <h3 className="font-semibold text-gray-900 mb-2">Layering</h3>
                 <p className="text-gray-700">
-                  Conducting complex transactions to obscure origin.
+                  Layering involves complex financial transactions to hide the origin of money. This can include securities trades, purchases of financial products, cash transfers, currency exchanges, or purchases of legitimate businesses.
                 </p>
               </div>
               <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
                 <h3 className="font-semibold text-gray-900 mb-2">Integration</h3>
                 <p className="text-gray-700">
-                  Reintroducing laundered money as legitimate business funds.
+                  Integration is the final stage where laundered proceeds are re-injected into the economy as normal business funds. Banks are vulnerable at this stage as criminal proceeds can enter as large cash deposits.
                 </p>
               </div>
             </div>
@@ -121,33 +145,28 @@ export default function AMLCDDPolicy() {
           <div className="mb-10">
             <div className="flex items-center mb-4">
               <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">7</div>
-              <h2 className="text-2xl font-bold text-gray-900">AML Measures</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Policy and Procedures for Anti Money Laundering Measures</h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-yellow-50 p-5 rounded-lg text-center">
-                <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900">Client Acceptance Policy</h3>
-              </div>
-              <div className="bg-blue-50 p-5 rounded-lg text-center">
-                <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900">Client Identification</h3>
-              </div>
-              <div className="bg-green-50 p-5 rounded-lg text-center">
-                <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900">Transaction Monitoring</h3>
-              </div>
+            <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-gray-500">
+              <p className="text-gray-700">
+                The Prevention of Money Laundering Act, 2002 has come into effect from 1st July 2005. Necessary Notifications/Rules under the said Act have been published in the Gazette of India on 1st July 2005.
+                <br /><br />
+                As per the Act, every banking company, financial institution and intermediary must maintain records of transactions as prescribed in the Rules, including:
+                <ul className="list-disc pl-8 mt-3 space-y-2">
+                  <li>All cash transactions over ₹10 lakhs or equivalent in foreign currency</li>
+                  <li>All series of connected cash transactions below ₹10 lakhs within one calendar month</li>
+                  <li>All suspicious transactions whether in cash or not</li>
+                </ul>
+                <br />
+                We will adopt procedures to implement AML provisions, including:
+                <ol className="list-decimal pl-8 mt-3 space-y-2">
+                  <li>Policy for acceptance of clients</li>
+                  <li>Procedure for identifying the clients</li>
+                  <li>Transaction monitoring and reporting (especially Suspicious Transactions Reporting)</li>
+                </ol>
+                <br />
+                Note: The words client/customer/subscriber are used interchangeably meaning paid customers availing our research services.
+              </p>
             </div>
           </div>
 
@@ -155,58 +174,186 @@ export default function AMLCDDPolicy() {
           <div className="mb-10">
             <div className="flex items-center mb-4">
               <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">8</div>
-              <h2 className="text-2xl font-bold text-gray-900">Client Due Diligence</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Client Due Diligence Process</h2>
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
-              <p className="text-gray-700 mb-3">
-                This applies only to client onboarding:
+              <p className="text-gray-700">
+                This policy is only applicable for client onboarding with us.
+                <br /><br />
+                <strong>Obtaining sufficient information to identify beneficial owners:</strong>
+                <br />
+                Gaurav Kulkarni, SEBI Registered Research Analyst(INH000009311) provides non-discretionary research recommendation service. Execution is handled by clients themselves. Transaction data is not handled by us. Identifying the beneficial owner of securities accounts remains the responsibility of the broker handling the client's account.
+                <br /><br />
+                <strong>Verify the Customer's Identity:</strong>
+                <br />
+                As per Regulation 25(1) of RA Regulations, we follow KYC procedure for fee-paying clients. When new clients register, we collect PAN and Date of Birth to verify KYC status. Only clients with "KYC Validated" or "KYC Registered" status can make payments. We verify KYC status on CVL KRA and store the screenshot of the KYC Record.
+                <br /><br />
+                Gaurav Kulkarni adopts a comprehensive Client Onboarding Procedure to verify customer identity before granting access. Please refer to the Customer Onboarding Policy in the Internal Policies and Procedures document.
               </p>
-              <ul className="list-disc text-gray-800 pl-8 space-y-2">
-                <li>We collect PAN and DOB, verify KYC via CVL KRA, and store screenshots.</li>
-                <li>Only KYC Validated/Registered clients can pay.</li>
-                <li>Onboarding follows SEBI RA regulations.</li>
-              </ul>
+            </div>
+          </div>
+
+          {/* Transaction Monitoring */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">9</div>
+              <h2 className="text-2xl font-bold text-gray-900">Transaction Monitoring and Reporting (Suspicious Transactions Reporting (STR))</h2>
+            </div>
+            <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
+              <p className="text-gray-700">
+                The only transaction encountered is collection of fees. We don't have access to client transaction data. Fee collection must be through our bank account only—no cash transactions allowed.
+                <br /><br />
+                Transactions to maintain and record include:
+                <ul className="list-disc pl-8 mt-3 space-y-2">
+                  <li>Cash transactions over ₹10 lakhs or equivalent in foreign currency</li>
+                  <li>Series of connected cash transactions below ₹10 lakhs within one calendar month</li>
+                  <li>All suspicious transactions</li>
+                </ul>
+                <br />
+                Any suspicious transactions will be immediately notified to the Compliance Officer. Compliance staff will have timely access to customer identification data and transaction records.
+                <br /><br />
+                The Principal Officer will be responsible for timely submission of CTR and STR to FIU-IND:
+                <ul className="list-disc pl-8 mt-3 space-y-2">
+                  <li>Maintain utmost confidentiality</li>
+                  <li>Transmit reports by speed/registered post/fax</li>
+                  <li>Report nil if no cash/suspicious transactions</li>
+                </ul>
+              </p>
             </div>
           </div>
 
           {/* Reporting to FIU-IND */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">10</div>
-              <h2 className="text-2xl font-bold text-gray-900">Reporting to FIU-IND</h2>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">9.1</div>
+              <h2 className="text-2xl font-bold text-gray-900">Reporting to FIU -- India</h2>
             </div>
-            <div className="bg-blue-50 p-5 rounded-lg border border-blue-200">
-              <p className="font-semibold text-gray-900 mb-2">Director, FIU–IND</p>
+            <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
               <p className="text-gray-700">
+                In terms of PMLA rules, we report information relating to cash and suspicious transactions to:
+                <br /><br />
+                <strong>Director, FIU -- IND</strong><br />
                 Financial Intelligence Unit India<br />
-                6th Floor, Hotel Samrat, Chanakyapuri, New Delhi – 110021
+                6th floor, Hotel Samrat Chanakyapuri<br />
+                New Delhi -- 110021
               </p>
             </div>
           </div>
 
-          {/* Staff Responsibilities */}
+          {/* Maintenance of Records */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">10</div>
+              <h2 className="text-2xl font-bold text-gray-900">Maintenance of Records</h2>
+            </div>
+            <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
+              <p className="text-gray-700">
+                All client records are maintained for a minimum period of 5 years or until resolution of any regulatory action.
+              </p>
+            </div>
+          </div>
+
+          {/* Audit */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">11</div>
+              <h2 className="text-2xl font-bold text-gray-900">Audit</h2>
+            </div>
+            <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
+              <p className="text-gray-700">
+                As per regulation 25(3) of RA Regulations, Gaurav Kulkarni shall:
+                <ol className="list-decimal pl-8 mt-3 space-y-2">
+                  <li>Complete annual compliance audit within six months from end of each financial year</li>
+                  <li>Submit compliance audit report to RAASB/SEBI within one month from audit report date</li>
+                  <li>Submit adverse findings along with action taken to RAASB/SEBI within one month but not later than October 31st</li>
+                  <li>Maintain annual certificate from ICAI/ICSI/ICMAI or auditor confirming compliance</li>
+                </ol>
+                <br />
+                We shall publish the status of the compliance audit report and any adverse findings with action taken on our website. The compliance audit report will be provided to clients.
+              </p>
+            </div>
+          </div>
+
+          {/* Role of Staff */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">12</div>
+              <h2 className="text-2xl font-bold text-gray-900">Role of Staff</h2>
+            </div>
+            <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+              <p className="text-gray-700">
+                Gaurav Kulkarni is an Individual Research Analyst. All roles are the responsibility of Gaurav Kulkarni.
+                <br /><br />
+                <strong>Principal Officer Responsibilities:</strong>
+                <ul className="list-disc pl-8 mt-3 space-y-2">
+                  <li>Communicating AML policy to employees</li>
+                  <li>Receiving suspicious activity reports</li>
+                  <li>Clarifying employee queries</li>
+                  <li>Ensuring staff awareness and compliance</li>
+                  <li>Reporting suspicious transactions</li>
+                  <li>Handling compliance functions</li>
+                  <li>Evaluating processes for gaps</li>
+                </ul>
+                <br />
+                <strong>On-Boarding Staff Responsibilities:</strong>
+                <ul className="list-disc pl-8 mt-3 space-y-2">
+                  <li>Primary compliance responsibility</li>
+                  <li>Carrying out KYC/CDD processes</li>
+                  <li>Reporting any suspicious activity</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          {/* Communication of Policy */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
               <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">13</div>
-              <h2 className="text-2xl font-bold text-gray-900">Staff Responsibilities</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Communication of Policy</h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
-                <h3 className="font-semibold text-gray-900 mb-3">Principal Officer: Ashish Arole</h3>
-                <p className="text-gray-700 mb-2">Responsibilities include:</p>
-                <ul className="list-disc text-gray-600 pl-6 space-y-1">
-                  <li>Communicating policy</li>
-                  <li>Handling suspicious activity reports</li>
-                  <li>Training and guiding staff</li>
-                  <li>Ensuring AML policy compliance</li>
-                </ul>
-              </div>
-              <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
-                <h3 className="font-semibold text-gray-900 mb-3">Onboarding Staff</h3>
-                <p className="text-gray-700">
-                  Must perform KYC, CDD, and report any suspicious activity.
-                </p>
-              </div>
+            <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
+              <p className="text-gray-700">
+                Copy of policy provided to all relevant staff. Annual awareness session conducted in 1st week of April.
+              </p>
+            </div>
+          </div>
+
+          {/* Compliance */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">14</div>
+              <h2 className="text-2xl font-bold text-gray-900">Compliance with Relevant Statutory and Regulatory Requirements</h2>
+            </div>
+            <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
+              <p className="text-gray-700">
+                Ensure activities comply with all relevant statutory and regulatory requirements.
+              </p>
+            </div>
+          </div>
+
+          {/* Cooperation */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">15</div>
+              <h2 className="text-2xl font-bold text-gray-900">Co-operation with the Relevant Law Enforcement Authorities</h2>
+            </div>
+            <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
+              <p className="text-gray-700">
+                Share appropriate client information with law enforcement authorities as required.
+              </p>
+            </div>
+          </div>
+
+          {/* Policy Review */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">16</div>
+              <h2 className="text-2xl font-bold text-gray-900">Review of Policy and Procedures</h2>
+            </div>
+            <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
+              <p className="text-gray-700">
+                Management to review policies and procedures on prevention of ML & TF to ensure effectiveness, especially when regulatory guidelines change.
+              </p>
             </div>
           </div>
 
@@ -214,36 +361,40 @@ export default function AMLCDDPolicy() {
           <div className="mb-10">
             <div className="flex items-center mb-4">
               <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">17</div>
-              <h2 className="text-2xl font-bold text-gray-900">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-gray-900">About Us</h2>
             </div>
-            <div className="bg-gray-50 text-gray-600 p-5 rounded-lg border-l-4 border-gray-500">
+            <div className="bg-gray-50 p-5 text-gray-600 rounded-lg border-l-4 border-gray-500">
               <ul className="space-y-3">
                 <li className="flex">
-                  <span className="font-medium w-32">Name:</span>
+                  <span className="font-medium w-40">Name of RA:</span>
                   <span>Gaurav Shriram Kulkarni</span>
                 </li>
                 <li className="flex">
-                  <span className="font-medium w-32">Registration No.:</span>
+                  <span className="font-medium w-40">Entity Type:</span>
+                  <span>Individual</span>
+                </li>
+                <li className="flex">
+                  <span className="font-medium w-40">Registration No.:</span>
                   <span>INH000009311</span>
                 </li>
                 <li className="flex">
-                  <span className="font-medium w-32">BSE Enlistment No.:</span>
+                  <span className="font-medium w-40">BSE Enlistment No.:</span>
                   <span>5534</span>
                 </li>
                 <li className="flex">
-                  <span className="font-medium w-32">Trade Name:</span>
+                  <span className="font-medium w-40">Trade Name:</span>
                   <span>Gaurav Shriram Kulkarni</span>
                 </li>
                 <li className="flex">
-                  <span className="font-medium w-32">Address:</span>
-                  <span>Flat no 506, A wing, Kesar Valley, Patil Nagar, Chikhali, Pune, Maharashtra, 411062</span>
+                  <span className="font-medium w-40">Residential/ Registered Address:</span>
+                  <span>Flat no 506, A wing, Kesar valley, Patil Nagar, Chikhali, Pune, Maharashtra, 411062</span>
                 </li>
                 <li className="flex">
-                  <span className="font-medium w-32">Contact No.:</span>
+                  <span className="font-medium w-40">Contact No.:</span>
                   <span>9970664299</span>
                 </li>
                 <li className="flex">
-                  <span className="font-medium w-32">Email:</span>
+                  <span className="font-medium w-40">Email No.:</span>
                   <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a>
                 </li>
               </ul>

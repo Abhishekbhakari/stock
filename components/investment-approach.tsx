@@ -33,7 +33,7 @@ export default function InvestmentApproach({
   relativePrice,
   sellingRules,
 }: InvestmentApproachProps) {
-  // Default to "L" tab as shown in the screenshot
+  // Default to "A" tab as shown in the screenshot
   const [activeTab, setActiveTab] = useState<"M" | "I" | "L" | "A" | "R" | "S">("A")
 
   // Get the active content based on the selected tab
@@ -59,60 +59,70 @@ export default function InvestmentApproach({
   return (
     <div className="min-h-screen bg-black py-12 ">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-12">Investment Approach</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-white">Investment Approach</h1>
 
         <div className="bg-white rounded-lg shadow-sm overflow-hidden">
           {/* MILARS Navigation */}
           <div className="grid grid-cols-6 text-center border-b">
-             <button
+            {/* M - Metrics and Data */}
+            <button
               onClick={() => setActiveTab("M")}
               className={`py-6 px-4 flex flex-col items-center ${activeTab === "M" ? "border-b-2 border-black" : ""}`}
             >
               <span className={`text-6xl font-light ${activeTab === "M" ? "text-black" : "text-gray-400"}`}>M</span>
-               <span className={`mt-2 ${activeTab === "M" ? "text-black" : "text-gray-400"}`}>Metrics</span>
-                <span className={activeTab === "M" ? "text-black" : "text-gray-400"}>and Data</span>
+              <span className={`mt-2 ${activeTab === "M" ? "text-black" : "text-gray-400"}`}>Metrics</span>
+              <span className={activeTab === "M" ? "text-black" : "text-gray-400"}>and Data</span>
             </button>
 
-           
-             <button
+            {/* I - Fundamentals First */}
+            <button
               onClick={() => setActiveTab("I")}
               className={`py-6 px-4 flex flex-col items-center ${activeTab === "I" ? "border-b-2 border-black" : ""}`}
             >
-              <span className={`text-6xl font-light ${activeTab === "I" ? "text-black" : "text-gray-400"}`}>f</span>
+              <span className={`text-6xl font-light ${activeTab === "I" ? "text-black" : "text-gray-400"}`}>I</span>
               <span className={`mt-2 ${activeTab === "I" ? "text-black" : "text-gray-400"}`}>Fundamentals</span>
               <span className={activeTab === "I" ? "text-black" : "text-gray-400"}>First</span>
             </button>
 
-
-             <button
+            {/* L - Stock Selection */}
+            <button
               onClick={() => setActiveTab("L")}
               className={`py-6 px-4 flex flex-col items-center ${activeTab === "L" ? "border-b-2 border-black" : ""}`}
             >
-              <span className={`text-6xl font-light ${activeTab === "L" ? "text-black" : "text-gray-400"}`}>S</span>
+              <span className={`text-6xl font-light ${activeTab === "L" ? "text-black" : "text-gray-400"}`}>L</span>
               <span className={`mt-2 ${activeTab === "L" ? "text-black" : "text-gray-400"}`}>Stock</span>
               <span className={activeTab === "L" ? "text-black" : "text-gray-400"}>Selection</span>
             </button>
 
-             <button
+            {/* A - Live Monitoring */}
+            <button
               onClick={() => setActiveTab("A")}
               className={`py-6 px-4 flex flex-col items-center ${activeTab === "A" ? "border-b-2 border-black" : ""}`}
             >
-              <span className={`text-6xl font-light ${activeTab === "A" ? "text-black" : "text-gray-400"}`}>L</span>
-             <span className={`mt-2 ${activeTab === "A" ? "text-black" : "text-gray-400"}`}>Live</span>
-<span className={activeTab === "A" ? "text-black" : "text-gray-400"}>Monitoring</span>
+              <span className={`text-6xl font-light ${activeTab === "A" ? "text-black" : "text-gray-400"}`}>A</span>
+              <span className={`mt-2 ${activeTab === "A" ? "text-black" : "text-gray-400"}`}>Live</span>
+              <span className={activeTab === "A" ? "text-black" : "text-gray-400"}>Monitoring</span>
             </button>
 
+            {/* R - Re-Evaluate and Adjust */}
+            <button
+              onClick={() => setActiveTab("R")}
+              className={`py-6 px-4 flex flex-col items-center ${activeTab === "R" ? "border-b-2 border-black" : ""}`}
+            >
+              <span className={`text-6xl font-light ${activeTab === "R" ? "text-black" : "text-gray-400"}`}>R</span>
+              <span className={`mt-2 ${activeTab === "R" ? "text-black" : "text-gray-400"}`}>Re-Evaluate</span>
+              <span className={activeTab === "R" ? "text-black" : "text-gray-400"}>and Adjust</span>
+            </button>
 
-
-
-
-
-<span className={`mt-2 ${activeTab === "R" ? "text-black" : "text-gray-400"}`}>Re-Evaluate</span>
-<span className={activeTab === "R" ? "text-black" : "text-gray-400"}>and Adjust</span>
-
-<span className={`mt-2 ${activeTab === "S" ? "text-black" : "text-gray-400"}`}>Exit</span>
-<span className={activeTab === "S" ? "text-black" : "text-gray-400"}>Discipline</span>
-
+            {/* S - Exit Discipline */}
+            <button
+              onClick={() => setActiveTab("S")}
+              className={`py-6 px-4 flex flex-col items-center ${activeTab === "S" ? "border-b-2 border-black" : ""}`}
+            >
+              <span className={`text-6xl font-light ${activeTab === "S" ? "text-black" : "text-gray-400"}`}>S</span>
+              <span className={`mt-2 ${activeTab === "S" ? "text-black" : "text-gray-400"}`}>Exit</span>
+              <span className={activeTab === "S" ? "text-black" : "text-gray-400"}>Discipline</span>
+            </button>
           </div>
 
           {/* Content Area */}
@@ -144,8 +154,8 @@ export default function InvestmentApproach({
               <p className="mt-6 text-gray-700">{activeContent.conclusion}</p>
 
               <div className="mt-8">
-                <Link href="#" className="text-blue-800 font-semibold inline-flex items-center">
-                  Service Catalog <ArrowRight className="ml-1 h-4 w-4" />
+                <Link href="/InvestmentPhilosophy" className="text-blue-800 font-semibold inline-flex items-center">
+                  Investment Philosophy <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
             </div>
@@ -155,4 +165,3 @@ export default function InvestmentApproach({
     </div>
   )
 }
-

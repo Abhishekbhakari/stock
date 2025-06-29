@@ -153,8 +153,8 @@ export default function InvestorCharter() {
             <li className="flex">
               <div className="mr-3 mt-1 w-4 h-4 bg-yellow-500 rounded-full flex-shrink-0"></div>
               <span>
-                In case of any grievance / complaint, an investor should approach the concerned research analyst and we
-                shall ensure that the grievance is resolved within 30 days.
+               1. Investor can lodge complaint/grievance against Research Analyst in the following 
+ways:
               </span>
             </li>
             <li className="flex">
@@ -217,15 +217,13 @@ export default function InvestorCharter() {
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
-                  <span>Check for SEBI registration number.</span>
-                </li>
-                <li className="flex">
-                  <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
                   <span>Ensure that the Research Analyst has a valid registration certificate.</span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span></span>
                   <span>
+                    Check for SEBI registration number. <br />
                     Please refer to the list of all SEBI registered Research Analysts which is available on SEBI website in
                     the following link: 
                     <a href="https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=14" 
@@ -239,24 +237,55 @@ export default function InvestorCharter() {
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
                   <span>
-                    Pay your Research Analyst through banking channels only and maintain duly signed receipts mentioning the
-                    details of your payments.
+                    Pay your Research Analyst through banking channels only and maintain duly 
+signed receipts mentioning the details of your payments. You may make 
+payment of fees through Centralized Fee Collection Mechanism (CeFCoM) of 
+RAASB if research analyst has opted for the mechanism. (Applicable for fee 
+paying clients only)
                   </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
                   <span>
-                    Before buying securities or applying in public offer, check for the research recommendation provided by
-                    your research Analyst.
+                   Before buying/ selling securities or applying in public offer, check for the 
+research recommendation provided by your Research Analyst.
                   </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
-                  <span>Ask all relevant questions and clear your doubts with your Research Analyst before acting on the recommendation.</span>
+                  <span>Ask all relevant questions and clear your doubts with your Research Analyst 
+before acting on recommendation. </span>
                 </li>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
-                  <span>Inform SEBI about Research Analyst offering assured or guaranteed returns.</span>
+                  <span>Seek clarifications and guidance on research recommendations from your 
+Research Analyst, especially if it involves complex and high risk financial 
+products and services. 
+</span>
+                </li>
+                <li className="flex">
+                  <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span>Always be aware that you have the right to stop availing the service of a 
+Research Analyst as per the terms of service agreed between you and your 
+Research Analyst. 
+</span>
+                </li>
+                <li className="flex">
+                  <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span>Always be aware that you have the right to provide feedback to your 
+Research Analyst in respect of the services received. 
+</span>
+                </li>
+                <li className="flex">
+                  <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span>Always be aware that you will not be bound by any clause, prescribed by the 
+research analyst, which is contravening any regulatory provisions. 
+</span>
+                </li>
+                <li className="flex">
+                  <div className="mr-3 mt-1 w-4 h-4 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span>Inform SEBI about Research Analyst offering assured or guaranteed returns.
+</span>
                 </li>
               </ul>
             </div>
@@ -295,6 +324,41 @@ export default function InvestorCharter() {
               </ul>
             </div>
           </div>
+        </section>
+
+        {/* Rights of Investors Section */}
+        <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-yellow-300 relative">
+          <div className="flex items-center mb-6">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">E</div>
+            <h2 className="text-2xl font-bold text-gray-900">
+              Rights of Investors
+            </h2>
+          </div>
+          <ul className="list-disc pl-8 space-y-4 text-gray-700">
+            <li>Right to Privacy and Confidentiality</li>
+            <li>Right to Transparent Practices</li>
+            <li>Right to Fair and Equitable Treatment</li>
+            <li>Right to Adequate Information</li>
+            <li>
+              Right to Initial and Continuing Disclosure – Right to receive information about all the statutory and regulatory disclosures
+            </li>
+            <li>Right to Fair &amp; True Advertisement</li>
+            <li>Right to Awareness about Service Parameters and Turnaround Times</li>
+            <li>Right to be informed of the timelines for each service</li>
+            <li>Right to be Heard and Satisfactory Grievance Redressal</li>
+            <li>Right to have timely redressal</li>
+            <li>
+              Right to Exit from Financial product or service in accordance with the terms and conditions agreed with the research analyst
+            </li>
+            <li>
+              Right to receive clear guidance and caution notice when dealing in Complex and High-Risk Financial Products and Services
+            </li>
+            <li>
+              Additional Rights to vulnerable consumers – Right to get access to services in a suitable manner even if differently abled
+            </li>
+            <li>Right to provide feedback on the financial products and services used</li>
+            <li>Right against coercive, unfair, and one-sided clauses in financial agreements</li>
+          </ul>
         </section>
 
         {/* Commitment Section */}

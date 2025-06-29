@@ -34,7 +34,7 @@ const TermsAndConditions = () => {
           <div className="flex justify-between items-start mb-6">
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-2">Terms and Conditions</h1>
-              <p className="text-gray-600">Effective Date: June 14, 2025</p>
+              
             </div>
             <div className="bg-gray-200 w-24 h-32 border border-dashed rounded-lg flex items-center justify-center">
               <span className="text-gray-500 text-sm">Document Seal</span>
