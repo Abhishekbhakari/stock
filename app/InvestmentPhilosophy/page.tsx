@@ -612,7 +612,7 @@ export default function InvestmentPhilosophy() {
         </section>
 
         {/* Enhanced Investment Pillars */}
-        <section className="max-w-6xl mx-auto px-6 md:px-10 mb-20">
+        {/* <section className="max-w-6xl mx-auto px-6 md:px-10 mb-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-2 text-yellow-300">Our Investment Pillars</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-yellow-500 to-amber-500 mx-auto rounded-full"></div>
@@ -638,7 +638,7 @@ export default function InvestmentPhilosophy() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Enhanced Investment Process */}
         <section className="max-w-6xl mx-auto px-6 md:px-10 mb-20">
@@ -680,7 +680,7 @@ export default function InvestmentPhilosophy() {
         </section>
 
         {/* Enhanced Quote Section */}
-        <section className="relative bg-gradient-to-r from-yellow-400/10 via-black/80 to-purple-800/10 py-20 px-6 md:px-10 text-center max-w-4xl mx-auto rounded-2xl shadow-lg border border-yellow-900 mb-20 overflow-hidden">
+        {/* <section className="relative bg-gradient-to-r from-yellow-400/10 via-black/80 to-purple-800/10 py-20 px-6 md:px-10 text-center max-w-4xl mx-auto rounded-2xl shadow-lg border border-yellow-900 mb-20 overflow-hidden">
           <div className="absolute -top-20 -left-20 w-64 h-64 bg-yellow-500/5 rounded-full blur-3xl animate-pulse" />
           <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-purple-500/5 rounded-full blur-3xl animate-pulse" />
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-amber-500"></div>
@@ -699,7 +699,7 @@ export default function InvestmentPhilosophy() {
             <div className="w-12 h-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent"></div>
           </div>
           <div className="text-gray-500 text-sm mt-2">The Father of Value Investing</div>
-        </section>
+        </section> */}
 
         <Footer />
       </div>
