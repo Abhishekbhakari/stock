@@ -27,18 +27,14 @@ const TermsAndConditions = () => {
       <main className="container mx-auto py-8 px-4 ">
         {/* Document Header */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8 border-4 border-yellow-300 relative">
-          <div className="absolute top-4 right-4 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold">
-            Version 1.0
-          </div>
           
-          <div className="flex justify-between items-start mb-6">
+          
+          <div className="flex justify-center items-start mb-6">
             <div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-2">Terms and Conditions</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-2 text-center items-center">Terms and Conditions</h1>
               
             </div>
-            <div className="bg-gray-200 w-24 h-32 border border-dashed rounded-lg flex items-center justify-center">
-              <span className="text-gray-500 text-sm">Document Seal</span>
-            </div>
+        
           </div>
           
           <div className="w-full h-1 bg-gradient-to-r from-yellow-400 to-yellow-600 mb-6"></div>
@@ -99,7 +95,7 @@ const TermsAndConditions = () => {
               <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">4</div>
               <h2 className="text-2xl font-bold text-gray-900">Standard Terms of Service</h2>
             </div>
-            <p className="font-medium mb-4">By subscribing to the research services, <strong className="text-gray-900">the client</strong> confirms the following:</p>
+            <p className="font-medium mb-4 text-black">By subscribing to the research services, <strong className="text-gray-900">the client</strong> confirms the following:</p>
             <ol className="list-decimal pl-8 space-y-3 text-gray-700">
               <li><em>"I/We have read and understood the terms and conditions applicable to a research analyst as defined under regulation 2(1)(u) of the SEBI (Research Analyst) Regulations, 2014, including the fee structure."</em></li>
               <li><em>"I/We are subscribing to the research services for our own benefits and consumption, and any reliance placed on the research report provided by research analyst shall be as per our own judgement and assessment of the conclusions contained in the research report."</em></li>
@@ -113,7 +109,7 @@ const TermsAndConditions = () => {
               </li>
             </ol>
 
-            <p className="font-medium mt-6 mb-4">By agreeing to render the research services, <strong className="text-gray-900">the RA</strong> declares the following:</p>
+            <p className="font-medium mt-6 mb-4 text-black">By agreeing to render the research services, <strong className="text-gray-900">the RA</strong> declares the following:</p>
             <ol className="list-decimal pl-8 space-y-3 text-gray-700">
               <li>
                 <em>It is duly registered with SEBI as an RA under the SEBI (Research Analysts) Regulations, 2014 and its registration details are --</em>
@@ -418,7 +414,7 @@ const TermsAndConditions = () => {
               </li>
             </ul>
             <p className="mt-4 font-semibold text-gray-900">Details of its associates</p>
-            <p>No associates</p>
+            <p className=' text-black'>No associates</p>
           </div>
           
           <div className="mb-8">
