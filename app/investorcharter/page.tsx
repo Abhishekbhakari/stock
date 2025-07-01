@@ -455,7 +455,8 @@ Administration and Supervisory Body (RAASB)</u>
                       href="https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=14"
                       className="text-blue-600 hover:underline ml-1"
                     >
-                      SEBI Registered Analysts
+https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi
+ =yes&intmId=14
                     </a>
                   </span>
                 </li>
@@ -577,8 +578,8 @@ Administration and Supervisory Body (RAASB)</u>
                 <li className="flex">
                   <div className="mr-3 mt-1 w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
                   <span>
-                    Do not share login credentials and password of your Trading
-                    and Demat Account with the Research Analyst.
+                     Do not share login credential and password of your trading, demat or bank 
+accounts with the Research Analyst. 
                   </span>
                 </li>
               </ul>
