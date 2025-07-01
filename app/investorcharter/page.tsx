@@ -299,6 +299,11 @@ export default function InvestorCharter() {
                 <br />
                 <u>Mode of filing the complaint with research analyst </u>
                 <br />
+                <span>In case of any grievance / complaint, an investor may approach the concerned 
+Research Analyst who shall strive to redress the grievance immediately, but not later than 21 days of the receipt of the grievance. </span>
+<br />
+<u>Mode of filing the complaint on SCORES or with Research Analyst 
+Administration and Supervisory Body (RAASB)</u>
                 <ol className="list-decimal pl-8 space-y-2 text-gray-700">
                   <li>
                     SCORES 2.0 (a web based centralized grievance redressal
@@ -323,7 +328,7 @@ export default function InvestorCharter() {
               <div className="break-words whitespace-pre-line">
                 <p>
                   If the Investor is not satisfied with the resolution provided by the Market Participants,
-                  then the Investor has the option to file the complaint/grievance on the <span className="font-semibold">SMARTODR platform</span>
+                  then the Investor has the option to file the complaint/grievance on the <span className="font-semibold">SMARTODR platform </span>
                   for its resolution through online conciliation or arbitration.
                 </p>
                 <p className="mt-2">
@@ -338,53 +343,9 @@ export default function InvestorCharter() {
                 </address>
               </div>
             </li>
-            <li className="flex">
-              <div className="mr-3 mt-1 w-4 h-4 bg-yellow-500 rounded-full flex-shrink-0"></div>
-              <span>
-                With regard to physical complaints, investors may send their
-                complaints to: Office of Investor Assistance and Education,
-                Securities and Exchange Board of India, SEBI Bhavan. Plot No.
-                C4-A, 'G' Block, Bandra-Kurla Complex, Bandra (E), Mumbai - 400
-                051.
-              </span>
-            </li>
+          
           </ul>
 
-          <div className="mt-8 bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
-            <div className="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
-                />
-              </svg>
-              <div className="text-gray-700">
-                <h3 className="font-semibold text-lg text-gray-900 mb-2">
-                  Contact for Grievances
-                </h3>
-                <p className="mb-1">
-                  <span className="font-medium">Email:</span>{" "}
-                  researchanalyst92@gmail.com
-                </p>
-                <p className="mb-1">
-                  <span className="font-medium">Phone:</span> 9970664299
-                </p>
-                <p>
-                  <span className="font-medium">Address:</span> Flat no 506, A
-                  wing, Kesar valley, Patil Nagar, Chikhali, Pune, Maharashtra,
-                  411062
-                </p>
-              </div>
-            </div>
-          </div>
         </section>
 
                 {/* Rights of Investors Section */}
