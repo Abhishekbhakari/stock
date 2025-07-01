@@ -9,7 +9,7 @@ export default function InvestorCharter() {
       <main className="container mx-auto py-10 px-4 ">
         {/* Creative Header */}
         <div className="relative mb-12 text-center">
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
+          {/* <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-8 w-8 text-gray-900"
@@ -22,7 +22,7 @@ export default function InvestorCharter() {
                 clipRule="evenodd"
               />
             </svg>
-          </div>
+          </div> */}
           <h1 className="text-4xl font-bold text-gray-900 mb-2 pt-8">
             Investor Charter
           </h1>
@@ -32,7 +32,7 @@ export default function InvestorCharter() {
             in all research activities
           </p>
           <br />
-          <div className="flex flex-col justify-center items-center text-black"> <img src="./sebi-logo.png" alt="" className=" items-center w-1/2" />
+          <div className="flex flex-col justify-center items-center text-black"> <img src="./logosebi.png" alt="" className=" items-center w-1/2" />
            <h3 className="text-2xl font-bold">ANNEXURE A</h3>
            <br />
          <p>INVESTOR CHARTER IN RESPECT OF RAs </p>
