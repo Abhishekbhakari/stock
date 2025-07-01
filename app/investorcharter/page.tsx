@@ -31,6 +31,13 @@ export default function InvestorCharter() {
             Our commitment to transparency, integrity, and investor protection
             in all research activities
           </p>
+          <br />
+          <div className="flex flex-col justify-center items-center text-black"> <img src="./sebi-logo.png" alt="" className=" items-center w-1/2" />
+           <h3 className="text-2xl font-bold">ANNEXURE A</h3>
+           <br />
+         <p>INVESTOR CHARTER IN RESPECT OF RAs </p>
+          </div>
+        
         </div>
 
         {/* Vision and Mission Section */}
