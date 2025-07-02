@@ -77,7 +77,7 @@ export default function Hero() {
           className="flex-1 flex justify-center items-center"
         >
           <Image 
-            src="/bannar3.png" // Make sure to place the image in the /public folder
+            src="/banner5.png" // Make sure to place the image in the /public folder
             alt="Stock Market Illustration"
             width={600}
             height={600}
