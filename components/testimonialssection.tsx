@@ -14,7 +14,7 @@ export default function TestimonialSection() {
       color: "gold",
     },
     {
-      title: "Comprehensive Market Coverage",
+      title: "Comprehensive Market Coverage", 
       quote:
         "Provide coverage of the markets and sectors that are relevant to clients’ investment goals. Our team of Research analysts provides thorough coverage of the stock market, including market trends and analysis.",
       author: "IDAN HERSHKOVICH",
@@ -151,13 +151,13 @@ export default function TestimonialSection() {
               return (
                 <div key={index} className="relative">
                   <div className={`absolute inset-0 ${color.shadow} translate-x-2 bg-${color.background} translate-y-2`} />
-                  <div className="relative bg-white border border-black rounded-md shadow-md p-6 h-[280px] flex flex-col justify-between">
+                  <div className="relative bg-white border border-black rounded-md shadow-md p-6 h-[260px] md:h-[240px] flex flex-col justify-between">
                     <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{testimonial.title}</p>
                     <p className="text-black">{testimonial.quote}</p>
-                    <div className="mt-4">
+                    {/* <div className="mt-4">
                       <p className="text-sm font-semibold uppercase">{testimonial.author}</p>
                       <p className="text-sm">{testimonial.company}</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               );

@@ -30,7 +30,7 @@ export default function InvestorComplaints() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-lg">Current Month</h3>
+              <h3 className="font-semibold text-black text-lg">Current Month</h3>
             </div>
             <p className="text-3xl font-bold text-gray-900 mb-1">May 2025</p>
             <p className="text-gray-700">Complaint data for the current reporting period</p>
@@ -43,7 +43,7 @@ export default function InvestorComplaints() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-lg">Total Complaints</h3>
+              <h3 className="font-semibold text-lg text-black">Total Complaints</h3>
             </div>
             <p className="text-3xl font-bold text-gray-900 mb-1">0</p>
             <p className="text-gray-700">No pending complaints as of May 2025</p>
@@ -56,7 +56,7 @@ export default function InvestorComplaints() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-lg">Resolution Time</h3>
+              <h3 className="font-semibold text-lg text-black">Resolution Time</h3>
             </div>
             <p className="text-3xl font-bold text-gray-900 mb-1">N/A</p>
             <p className="text-gray-700">No complaints requiring resolution</p>
