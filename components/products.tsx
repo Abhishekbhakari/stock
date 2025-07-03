@@ -28,34 +28,36 @@ export default function OurProducts() {
             transition={{ type: "spring", stiffness: 300 }}
             className="w-full max-w-sm"
           >
-            <div className="relative p-6 sm:p-8 min-h-[320px] flex flex-col justify-between bg-[#fcfcfc] text-black shadow-xl rounded-md">
+            <div className="relative p-6 sm:p-8 min-h-[320px] flex flex-col justify-between bg-[#fcfcfc] text-black shadow-xl">
               {/* Ribbon */}
-              <div className="absolute top-0 left-0 right-0 bg-[#b8994e] text-white text-center py-1 text-lg">
+              {/* <div className="absolute top-0 left-0 right-0 bg-[#b8994e] text-white text-center py-1 text-lg">
                 Most Popular
-              </div>
+              </div> */}
 
               {/* Card Content */}
-              <div className="mt-10">
+              <div className="mt-2">
                 <div className="flex items-center gap-2 mb-4">
-                  <h3 className="text-2xl font-extrabold bg-yellow-500 px-2 py-1 rounded">
-                    Investment Plan
+                  <h3 className="text-xl font-black bg-yellow-500 ">
+                    Popular
                   </h3>
                 </div>
-                <ul className="list-disc list-inside text-md text-gray-700 mb-6 space-y-1">
-                  <li>Yearly subscription-based investment model.</li>
-                  <li>Buying calls provided in each quarter.</li>
-                  <li>Selling call triggered if fundamentals weaken or stock fully prices in positivity.</li>
-                  <li>End-to-end service: from buying to monitoring to sell call.</li>
+                <h2 className=" text-2xl font-black">Your All-in-One Stock Advisory Solution</h2>
+                <p className=" font-light">Get a complete investment journey—right from precise stock selection to timely exit strategies—all under a single annual subscription. Our expert-backed calls guide you every quarter, ensuring you stay informed, confident, and ahead of the market.</p>
+                <ul className="list-disc list-inside text-md font-bold text-gray-700 mb-6 space-y-1">
+                  <li>Quarterly Buying Calls</li>
+                  <li> Continuous Monitoring</li>
+                  <li>One Simple Subscription</li>
+                  <li>No Noise, Just Clarity</li>
                 </ul>
               </div>
 
               {/* Subscribe Button */}
-              <Button
+              {/* <Button
                 variant="outline"
                 className="w-full border-[#5d7a5d] text-[#5d7a5d] hover:bg-[#5d7a5d] hover:text-white"
               >
                 Subscribe Now
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
         </div>
