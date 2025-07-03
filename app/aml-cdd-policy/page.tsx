@@ -123,19 +123,30 @@ export default function AMLCDDPolicy() {
               <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
                 <h3 className="font-semibold text-gray-900 mb-2">Placement</h3>
                 <p className="text-gray-700">
-                  Placement is the initial stage in which money from criminal activities is placed in financial institutions. One of the most common methods is structuring—breaking up currency transactions into portions below reporting thresholds.
+                  Placement is the initial stage in which money from criminal activities is placed in financial institutions. One of the most common methods is structuring—breaking up currency transactions into portions below reporting threshold for the specific
+purpose of avoiding reporting or recordkeeping requirements.
+
                 </p>
               </div>
               <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
                 <h3 className="font-semibold text-gray-900 mb-2">Layering</h3>
                 <p className="text-gray-700">
-                  Layering involves complex financial transactions to hide the origin of money. This can include securities trades, purchases of financial products, cash transfers, currency exchanges, or purchases of legitimate businesses.
+                  Layering is the process of conducting a complex series of financial transactions, with the
+purpose of hiding the origin of money from criminal activity and hindering any attempt to trace
+the funds. This stage can consist of multiple securities trades, purchases of financial products
+such as life insurance or annuities, cash transfers, currency exchanges, or purchases of
+legitimate businesses.
+
                 </p>
               </div>
               <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
                 <h3 className="font-semibold text-gray-900 mb-2">Integration</h3>
                 <p className="text-gray-700">
-                  Integration is the final stage where laundered proceeds are re-injected into the economy as normal business funds. Banks are vulnerable at this stage as criminal proceeds can enter as large cash deposits.
+                  Integration is the final stage in the re-injection of the laundered proceeds back into the economy
+in such a way that they re-enter the financial system as normal business funds. Banks and
+financial intermediaries are vulnerable from the Money Laundering point of view since criminal
+proceeds can enter banks in the form of large cash deposits.
+
                 </p>
               </div>
             </div>
