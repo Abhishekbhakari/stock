@@ -464,8 +464,9 @@ export default function InvestmentPhilosophy() {
                 <div className="flex items-start">
                   <div className="mt-1 mr-3 text-xl text-yellow-400">✓</div>
                   <div>
-                    <h3 className="font-bold text-gray-200">Long-Term Perspective</h3>
-                    <p className="text-gray-400 text-sm">Focus on multi-year growth potential rather than short-term fluctuations</p>
+                    <h3 className="font-bold text-gray-200">Medium-term perspective 
+</h3>
+                    <p className="text-gray-400 text-sm">Focus on quarterly growth potential rather than very short term fluctuations</p>
                   </div>
                 </div>
                 <div className="flex items-start">

@@ -334,7 +334,7 @@ any regulatory action till the time the same is resolved.
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
               <p className="text-gray-700 mb-4">
               Gaurav Kulkarni is an Individual Research Analyst. All these roles though uniquely identified are all<br />
-              the responsibility of Ashish Arole.
+              the responsibility of Gaurav Kulkarni.
               </p>
               <p className="text-gray-700 font-semibold mb-2">Principal Officer</p>
               <p className="text-gray-700 mb-2">
@@ -381,9 +381,9 @@ account information, securities transactions, money and client records etc. whet
 branches, departments or subsidiaries;
 <br />
 <br />
-Copy of above policy is to be provided to all the management and relevant staff that handle
-account information, securities transactions, money and client records etc. whether in
-branches, departments or subsidiaries;
+An internal session on awareness of the above policy is to be conducted on a yearly basis in 1st
+week of April to spread awareness of the same among all the relevant person(s).
+
 
               </p>
             </div>
