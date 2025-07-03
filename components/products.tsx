@@ -9,8 +9,8 @@ export default function OurProducts() {
       <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center gap-12">
         {/* Left Side Heading Section */}
         <div className="flex flex-col gap-4 items-center lg:items-start text-center lg:text-left z-10 w-full lg:w-1/2">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white">
-            The only product<br /> You Need <span className="text-lime-400">.</span>
+          <h2 className="text-6xl sm:text-5xl md:text-7xl font-extrabold text-white">
+            THE <span className=" text-yellow-400">ONLY PRODUCT</span> YOU NEED <span className="text-lime-400">.</span>
           </h2>
           <div className="flex items-start justify-center lg:justify-start w-full gap-2">
             <svg className="h-8 w-36 md:w-38 ml-2" width="100" height="32" viewBox="0 0 89 21" fill="none" xmlns="http://www.w3.org/2000/svg">

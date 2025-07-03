@@ -27,7 +27,7 @@ export default function Hero() {
             className="text-white text-4xl text-center md:text-left font-black tracking-tight text-transparent sm:text-2xl md:text-6xl lg:text-7xl"
           ><span className="text-yellow-400">*INVEST*</span>
           <br />
-             IN YOUR FUTURE .
+             IN YOUR FUTURE <span className="text-lime-400">.</span>
 
           </motion.h1>
 
@@ -49,9 +49,9 @@ export default function Hero() {
           >
             <div
               
-              className="relative items-center md:items-start flex bg-transparent hover:bg-transparent text-lg font-semibold text-white transition duration-300 "
+              className="relative items-center md:items-start flex bg-transparent hover:bg-transparent text-xl font-bold text-white transition duration-300 "
             >
-              Explore Solutions
+              EXPLORE
              
               <svg className="md:w-48 h-8 ml-2 w-20" width="100" height="32" viewBox="0 0 89 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0.00366298 9.45249L0.0117188 12.1226L74.9997 11.8963L74.9916 9.22624L0.00366298 9.45249Z" fill="white"></path>

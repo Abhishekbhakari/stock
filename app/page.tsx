@@ -147,11 +147,11 @@ export default function Home() {
         <Navbar />
         
         {/* Hero Section */}
-        <div className="bg-black pb-16 md:pb-24">
+        <div className="bg-black pb-10 md:pb-18">
           <Hero />
         </div>
 
-              <RunningStrip />
+           
         
         {/* Testimonial Section */}
         <div className=" bg-black">
@@ -159,6 +159,8 @@ export default function Home() {
             <TestimonialSection />
           </div>
         </div>
+
+           <RunningStrip />
         
         {/* Stats Cards */}
         <div className="py-16 md:py-12 bg-black">
