@@ -37,8 +37,8 @@ export default function Hero() {
             transition={{ duration: 1.2, delay: 0.2 }}
             className="mx-auto max-w-2xl text-center md:text-left text-xl text-gray-300 md:text-xl"
           >
-            Gaurav Kulkarni is a SEBI Registered Research analyst.
-            “We simplify Equity investment for the investor by doing fundamental analysis on the shares”
+            <span className=" font-extrabold">Gaurav Kulkarni</span> is a <span className=" text-yellow-400">SEBI Registered Research analyst</span> . <br />
+            We simplify Equity investment for the investor by doing fundamental analysis on the shares.
           </motion.p>
 
           <motion.div

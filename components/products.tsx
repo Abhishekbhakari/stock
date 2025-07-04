@@ -41,7 +41,7 @@ export default function OurProducts() {
                     Popular
                   </h3>
                 </div>
-                <h2 className=" text-2xl font-black">Your All-in-One Stock Advisory Solution</h2>
+                <h2 className=" text-2xl font-black">Your All-in-One Stock Research Solution</h2>
                 <p className=" font-light">Get a complete investment journey—right from precise stock selection to timely exit strategies—all under a single annual subscription. Our expert-backed calls guide you every quarter, ensuring you stay informed, confident, and ahead of the market.</p>
                 <ul className="list-disc list-inside text-md font-bold text-gray-700 mb-6 space-y-1">
                   <li>Quarterly Buying Calls</li>

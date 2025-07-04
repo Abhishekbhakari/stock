@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section className="relative bg-black py-16 md:py-24">
       {/* Navigation Tabs */}
-      <div className="container flex gap-6 text-white text-lg font-semibold uppercase">
+      <div className="container justify-center flex gap-6 text-white text-lg font-semibold uppercase">
         <span className="text-yellow-400 border-b-2 border-yellow-400">
           Communication Table
         </span>
@@ -17,8 +17,8 @@ export default function CTA() {
           <div className="bg-yellow-400 p-10 md:p-14 rounded-sm flex flex-col md:flex-row items-center justify-between">
             {/* Text Section */}
             <div className="md:w-2/3 text-black space-y-4">
-              <h2 className="text-3xl md:text-4xl font-extrabold">
-                Contact Us
+              <h2 className="text-3xl md:text-4xl space-y-4 font-black">
+               GET IN TOUCH
               </h2>
 
               <div className="text-lg font-normal space-y-3">

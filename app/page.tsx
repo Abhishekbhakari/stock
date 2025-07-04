@@ -8,6 +8,7 @@ import TestimonialSection from "@/components/testimonialssection"
 import InvestmentApproach from "@/components/investment-approach"
 import OurProducts from "@/components/products"
 import RunningStrip from "@/components/Marque"
+import Relation from "@/components/relation"
 
 const tabContent = {
   marketDirection: {
@@ -151,6 +152,7 @@ export default function Home() {
           <Hero />
         </div>
 
+       <RunningStrip />
            
         
         {/* Testimonial Section */}
@@ -160,17 +162,20 @@ export default function Home() {
           </div>
         </div>
 
-           <RunningStrip />
+
+        {/* Relation Section */}
+        <Relation/>
+          
         
         {/* Stats Cards */}
-        <div className="py-16 md:py-12 bg-black">
+        {/* <div className="py-16 md:py-12 bg-black">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <StatsCards />
           </div>
-        </div>
+        </div> */}
         
         {/* Investment Approach */}
-        <div className="  bg-black dark:bg-gray-900">
+        {/* <div className="  bg-black dark:bg-gray-900">
           <div className="">
             <InvestmentApproach
               marketDirection={tabContent.marketDirection}
@@ -179,10 +184,10 @@ export default function Home() {
               acceleration={tabContent.acceleration}
             />
           </div>
-        </div>
+        </div> */}
         
         {/* Products Section */}
-        <div className="py-16 md:py-24 bg-black">
+        <div className="py-16 md:py-14 bg-black">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <OurProducts />
           </div>
@@ -191,14 +196,14 @@ export default function Home() {
   
         
         {/* Testimonials */}
-        <div className=" bg-black dark:bg-gray-900">
+        {/* <div className=" bg-black dark:bg-gray-900">
           <div className="">
             <Testimonials />
           </div>
-        </div>
+        </div> */}
         
         {/* CTA Section */}
-        <div className="py-16 md:py-24 bg-black">
+        <div className="py-16 md:py-14 bg-black">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <CTA />
           </div>

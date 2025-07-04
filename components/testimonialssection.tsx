@@ -1,56 +1,38 @@
 "use client";
 import { useState } from "react";
 
-export default function TestimonialSection() {
+export default function WhatWeDoSection() {
   const [showAll, setShowAll] = useState(false);
 
-  const testimonials = [
+  const whatWeDoItems = [
     {
-      title: "Knowledge and Expertise",
-      quote:
-        "Our team consists of analysts with a strong understanding of the Stock market, Investment strategies, and financial analysis.",
-      author: "RONY VEXELMAN",
-      company: "OPTIMOVE",
+      title: "Fundamental Analysis",
+      description: "We conduct thorough examination of business models, financials, and competitive positioning to identify strong investment opportunities.",
       color: "gold",
     },
     {
-      title: "Comprehensive Market Coverage", 
-      quote:
-        "Provide coverage of the markets and sectors that are relevant to clients’ investment goals. Our team of Research analysts provides thorough coverage of the stock market, including market trends and analysis.",
-      author: "IDAN HERSHKOVICH",
-      company: "CATO NETWORKS",
+      title: "Management Assessment",
+      description: "We evaluate leadership quality and corporate governance to ensure we invest in companies with ethical and capable management.",
       color: "blue",
     },
     {
-      title: "Investment strategy",
-      quote:
-        "We follow a Scientific approach toward stock market trading and investment. Along with this, we rely upon disciplined and systematic investment strategy, rather than on speculation or on market hype.",
-      author: "STAV ELKAYAM",
-      company: "DATORIOS",
+      title: "Sustainable Competitive Advantages",
+      description: "We focus on businesses with durable competitive advantages that protect their market position and profits.",
       color: "gold",
     },
     {
-      title: "In-depth analysis and insights",
-      quote:
-        "Our research goes beyond just presenting data and includes insightful analysis and interpretation. This helps you to make informed decisions and stay ahead of the market.",
-      author: "RONY VEXELMAN",
-      company: "OPTIMOVE",
+      title: "Value Investing with Margin of Safety",
+      description: "We adhere to strict valuation metrics and always seek a margin of safety to protect your investments.",
       color: "pink",
     },
     {
-      title: "Access to the team",
-      quote:
-        "We understand that every investor has unique needs and goals. That's why we offer customized research solutions tailored to client’s specific requirements.",
-      author: "IDAN HERSHKOVICH",
-      company: "CATO NETWORKS",
+      title: "Risk Management",
+      description: "We mitigate risk through diversified portfolio construction and continuous monitoring of market conditions.",
       color: "blue",
     },
     {
-      title: "Track record",
-      quote:
-        "Our analysts hold a strong track record of providing highly accurate and profitable investment recommendations.",
-      author: "STAV ELKAYAM",
-      company: "DATORIOS",
+      title: "Bottom-Up Investment Approach",
+      description: "We prioritize individual company fundamentals over sector or economic trends to uncover hidden gems.",
       color: "red",
     },
   ];
@@ -89,7 +71,7 @@ export default function TestimonialSection() {
     }
   };
 
-  const displayedTestimonials = showAll ? testimonials : testimonials.slice(0, 3);
+  const displayedItems = showAll ? whatWeDoItems : whatWeDoItems.slice(0, 3);
 
   return (
     <section className="relative px-4 py-16 md:py-24 bg-black">
@@ -97,9 +79,9 @@ export default function TestimonialSection() {
 
       <div className="max-w-7xl mx-auto">
         <h1 className="text-center text-4xl md:text-6xl lg:text-7xl font-extrabold mb-10">
-          <span className="text-white">WHY TO </span>
-          <span className="text-yellow-400">JOIN</span>{" "}
-          <span className="text-yellow-400">US</span>{" "}
+          <span className="text-white">WHAT </span>
+          <span className="text-yellow-400">WE</span>{" "}
+          <span className="text-yellow-400">DO</span>{" "}
           <span className="text-white">?</span>
         </h1>
 
@@ -114,50 +96,47 @@ export default function TestimonialSection() {
           </svg>
         </div>
 
-        {/* Conditional Layout */}
+        <div className="mb-16 max-w-5xl mx-auto text-center px-4">
+          <p className="text-xl md:text-xl text-gray-300 leading-relaxed">
+            Because of time constraints and lack of market knowledge, many investors struggle to invest effectively. 
+          </p>
+          <p className="mt-4 text-xl font-bold text-yellow-400">
+            "We simplify Equity investment by doing fundamental analysis on shares"
+          </p>
+        </div>
+
         {!showAll ? (
-          // Initial View with 3 cards stacked and overlapped, centered
           <div className="relative flex justify-center items-center md:flex h-[300px] mb-20">
             <div className="relative" style={{ width: "660px", height: "300px" }}>
-              {displayedTestimonials.map((testimonial, index) => {
-                const color = getColorClasses(testimonial.color);
+              {displayedItems.map((item, index) => {
+                const color = getColorClasses(item.color);
                 return (
-                  <div>
-                  
-                    <div
-                      key={index}
-                      className={`absolute w-80 p-6  translate-x-2 translate-y-2 border bg-white border-black rounded-md  ${color.shadow}`}
-                      style={{
-                        top: index === 0 ? "50px" : index === 1 ? "0" : "60px",
-                        left: index === 0 ? "0" : index === 1 ? "220px" : "440px",
-                        zIndex: index === 1 ? 30 : 10,
-                      }}
-                    >
-                      <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{testimonial.title}</p>
-                      <p className="text-black">{testimonial.quote}</p>
-                      <p className="mt-4 text-sm font-semibold uppercase">{testimonial.author}</p>
-                      <p className="text-sm">{testimonial.company}</p>
-                    </div>
+                  <div
+                    key={index}
+                    className={`absolute w-80 p-6 translate-x-2 translate-y-2 border bg-white border-black rounded-md ${color.shadow}`}
+                    style={{
+                      top: index === 0 ? "50px" : index === 1 ? "0" : "60px",
+                      left: index === 0 ? "0" : index === 1 ? "220px" : "440px",
+                      zIndex: index === 1 ? 30 : 10,
+                    }}
+                  >
+                    <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{item.title}</p>
+                    <p className="text-black">{item.description}</p>
                   </div>
                 );
               })}
             </div>
           </div>
         ) : (
-          // Grid View after Load More
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
-            {testimonials.map((testimonial, index) => {
-              const color = getColorClasses(testimonial.color);
+            {whatWeDoItems.map((item, index) => {
+              const color = getColorClasses(item.color);
               return (
                 <div key={index} className="relative">
                   <div className={`absolute inset-0 ${color.shadow} translate-x-2 bg-${color.background} translate-y-2`} />
-                  <div className="relative bg-white border border-black rounded-md shadow-md p-6 h-[260px] md:h-[240px] flex flex-col justify-between">
-                    <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{testimonial.title}</p>
-                    <p className="text-black">{testimonial.quote}</p>
-                    {/* <div className="mt-4">
-                      <p className="text-sm font-semibold uppercase">{testimonial.author}</p>
-                      <p className="text-sm">{testimonial.company}</p>
-                    </div> */}
+                  <div className="relative bg-white border border-black rounded-md shadow-md p-6 h-full flex flex-col">
+                    <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{item.title}</p>
+                    <p className="text-black">{item.description}</p>
                   </div>
                 </div>
               );
@@ -165,10 +144,12 @@ export default function TestimonialSection() {
           </div>
         )}
 
-        {/* Load More Button */}
         {!showAll && (
           <div className="text-center mt-20">
-            <button onClick={() => setShowAll(true)} className="text-white text-lg font-medium hover:underline focus:outline-none">
+            <button 
+              onClick={() => setShowAll(true)} 
+              className="text-white text-lg font-medium hover:underline "
+            >
               LOAD MORE
             </button>
           </div>
