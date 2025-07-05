@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="border-t w-full bg-white">
       <div className="container bg-white flex flex-col gap-8 py-8 md:flex-row md:py-12">
         <div className="flex-1 space-y-4">
-          <h2 className="font-bold text-black text-7xl ">Stock</h2>
+          <h2 className="font-black text-black text-4xl ">GAURAV KULKARNI</h2>
           <p className="text-6xl font-bold text-muted-foreground">
             Believing in the Numbers Rather than the Story
           </p>
@@ -31,6 +31,14 @@ export default function Footer() {
                   className="text-muted-foreground transition-colors hover:text-black"
                 >
                   Investment Philosophy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-muted-foreground transition-colors hover:text-black"
+                >
+                  Contact Us
                 </Link>
               </li>
 

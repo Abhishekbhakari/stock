@@ -2,16 +2,16 @@ import { Button } from "@/components/ui/button";
 
 export default function CTA() {
   return (
-    <section className="relative bg-black py-16 md:py-24">
+    <section className="relative bg-black py-16 md:py-20">
       {/* Navigation Tabs */}
-      <div className="container justify-center flex gap-6 text-white text-lg font-semibold uppercase">
+      {/* <div className="container justify-center flex gap-6 text-white text-lg font-semibold uppercase">
         <span className="text-yellow-400 border-b-2 border-yellow-400">
           Communication Table
         </span>
-      </div>
+      </div> */}
 
       {/* OUTER WRAPPER - for 2D card effect */}
-      <div className="container mt-8 mx-auto flex justify-center">
+      <div className="container mt-3 mx-auto flex justify-center">
         <div className="bg-white border-4 border-black p-1 shadow-md "/>
           {/* Inner Yellow Card */}
           <div className="bg-yellow-400 p-10 md:p-14 rounded-sm flex flex-col md:flex-row items-center justify-between">
