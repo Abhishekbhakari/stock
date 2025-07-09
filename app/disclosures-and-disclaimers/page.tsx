@@ -252,7 +252,7 @@ export default function DisclosuresAndDisclaimers() {
         </div>
       </main>
       
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
