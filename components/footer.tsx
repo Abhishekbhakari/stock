@@ -97,6 +97,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/accessibility"
+                  className="text-gray-400 hover:text-black"
+                >
+                  Grievance Redressal Mechanism (Accessibility Compliance)
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/disclosures-and-disclaimers"
                   className="text-gray-400 hover:text-black"
                 >
