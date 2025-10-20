@@ -80,7 +80,7 @@ export default function SEBIRegistrationCertificate() {
         </div>
 
         {/* Certificate Viewer */}
-        <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-gray-200 relative">
+        {/* <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-gray-200 relative">
           <div className="absolute top-4 left-4 w-2 h-2 bg-yellow-500 rounded-full"></div>
           <div className="absolute top-4 right-4 w-2 h-2 bg-yellow-500 rounded-full"></div>
           <div className="absolute bottom-4 left-4 w-2 h-2 bg-yellow-500 rounded-full"></div>
@@ -116,7 +116,7 @@ export default function SEBIRegistrationCertificate() {
               <span className="font-medium">Note:</span> Place your PDF file at: public/sebi-certificate.pdf
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Additional Information */}
         {/* <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">

@@ -32,7 +32,7 @@ export default function InvestorComplaints() {
               </div>
               <h3 className="font-semibold text-black text-lg">Current Month</h3>
             </div>
-            <p className="text-3xl font-bold text-gray-900 mb-1">July 2025</p>
+            <p className="text-3xl font-bold text-gray-900 mb-1">September 2025</p>
             <p className="text-gray-700">Complaint data for the current reporting period</p>
           </div>
           
@@ -46,7 +46,7 @@ export default function InvestorComplaints() {
               <h3 className="font-semibold text-lg text-black">Total Complaints</h3>
             </div>
             <p className="text-3xl font-bold text-gray-900 mb-1">0</p>
-            <p className="text-gray-700">No pending complaints as of July 2025</p>
+            <p className="text-gray-700">No pending complaints as of September 2025</p>
           </div>
           
           <div className="bg-white p-6 rounded-xl shadow-md border-t-4 border-yellow-500">
@@ -152,9 +152,9 @@ export default function InvestorComplaints() {
               </thead>
               <tbody>
                 {[
+                  ["September 2025", "-", "0", "-", "-"],
+                  ["August 2025", "-", "0", "-", "-"],
                   ["July 2025", "-", "0", "-", "-"],
-                  ["June 2025", "-", "0", "-", "-"],
-                  ["May 2025", "-", "0", "-", "-"],
                 ].map((row, index) => (
                   <tr 
                     key={index} 
