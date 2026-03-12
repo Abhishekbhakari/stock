@@ -192,8 +192,9 @@ export default function Footer() {
           <strong>SCORES:</strong> Clients May Submit Grievances Directly To
           SEBI{" "}
           <a
-            href="https://scores.gov.in/scores/Welcome.html"
+            href="http://scores.sebi.gov.in/"
             className="text-blue-600 underline"
+            target="_blank"
           >
             Here
           </a>{" "}
@@ -201,6 +202,7 @@ export default function Footer() {
           <a
             href="https://play.google.com/store/apps/details?id=com.ionicframework.sebi236330"
             className="text-blue-600 underline"
+            target="_blank"
           >
             Android
           </a>{" "}
@@ -208,13 +210,14 @@ export default function Footer() {
           <a
             href="https://apps.apple.com/in/app/sebi-scores/id1503810121"
             className="text-blue-600 underline"
+            target="_blank"
           >
             iOS
           </a>
           <br />
           <strong>ODR:</strong> Online Dispute Resolution Mechanism, As Per SEBI
           Regulations, Is Accessible{" "}
-          <a href="https://smartodr.in" className="text-blue-600 underline">
+          <a href="https://smartodr.in/" className="text-blue-600 underline" target="_blank">
             Here
           </a>
         </div>
