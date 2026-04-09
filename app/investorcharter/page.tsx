@@ -32,7 +32,8 @@ export default function InvestorCharter() {
             in all research activities
           </p>
           <br />
-          <div className="flex flex-col justify-center items-center text-black"> <img src="./logosebi.png" alt="" className=" items-center w-1/2" />
+           <div className="flex flex-col justify-center items-center text-black"> 
+          {/* <img src="./logosebi.png" alt="" className=" items-center w-1/2" />  */}
            <h3 className="text-2xl font-bold">ANNEXURE A</h3>
            <br />
          <p>INVESTOR CHARTER IN RESPECT OF RAs </p>
