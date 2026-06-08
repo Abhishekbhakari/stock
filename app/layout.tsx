@@ -9,7 +9,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Gaurav Kulkarni - Research Analyst",
   description: "Gaurav Kulkarni - Research Analyst.",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  verification: {
+    other: {
+      "facebook-domain-verification": "37vdfu83091zodyqfa5wi4qm14rztt",
+    },
+  },
 }
 
 export default function RootLayout({
