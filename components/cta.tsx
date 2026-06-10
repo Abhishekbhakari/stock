@@ -31,9 +31,14 @@ export default function CTA() {
                 </div>
                 <div>
                   <p><strong>Residential/ Registered Address:</strong><br />
-                    Flat no 506, A wing, Kesar valley, Patil Nagar, Chikhali, Pune, Maharashtra, 411062
+                   Gaurav Shriram Kulkarni 
+Flat no 506, A wing, Kesar valley, 
+Patil Nagar, Chikhali, 
+Pune-411062 
+Maharashtra 
+India
                   </p>
-                  <p><strong>Contact No.:</strong> 9970664299</p>
+                  <p><strong>Contact No.:</strong> 8766660790</p>
                   <p><strong>Email:</strong> <a href="mailto:researchanalyst92@gmail.com" className="underline hover:text-blue-600">researchanalyst92@gmail.com</a></p>
                 </div>
               </div>
