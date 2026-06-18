@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="border-t w-full bg-white">
       <div className="container bg-white flex flex-col gap-8 py-8 md:flex-row md:py-12">
         <div className="flex-1 space-y-4">
-          <h2 className="font-black text-black text-4xl ">GAURAV KULKARNI</h2>
+          <h2 className="font-black text-black text-4xl ">Gaurav Shriram Kulkarni</h2>
           <p className="text-6xl font-bold text-muted-foreground">
             Believing in the Numbers Rather than the Story
           </p>
