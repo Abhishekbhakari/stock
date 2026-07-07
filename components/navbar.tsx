@@ -36,7 +36,7 @@ export default function Navbar() {
           </Link> */}
           <Link href="/contact">
             <Button variant="ghost" size="sm">
-              Contact
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -69,7 +69,7 @@ export default function Navbar() {
             </Link>
             <Link href="/contact" onClick={() => setIsOpen(false)}>
               <Button variant="ghost" size="sm">
-                Contact
+                Contact Us
               </Button>
             </Link>
             <Button size="sm" onClick={() => setIsOpen(false)}>Get a Demo</Button>

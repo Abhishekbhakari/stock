@@ -6,7 +6,7 @@ export default function Accessibility() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
 
-      <main className="container mx-auto py-12 px-4 max-w-5xl">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-12 px-4 max-w-5xl">
         {/* Creative Header */}
         <div className="relative mb-14 text-center">
           <h1 className="text-4xl md:text-4xl font-extrabold text-gray-900 mb-3 pt-6">
@@ -30,7 +30,7 @@ export default function Accessibility() {
         {/* Dedicated Channels Section */}
         <section className="mb-12 bg-white p-8 rounded-2xl shadow-xl border border-yellow-300 hover:shadow-2xl transition-shadow duration-300">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-3 shadow-md">
+            <div className="bg-yellow-500 w-10 h-10 rounded-full flex items-center justify-center text-black font-bold mr-3 shadow-md">
               1
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -43,7 +43,7 @@ export default function Accessibility() {
                 Email:{" "}
                 <a
                   href="mailto:researchanalyst92@gmail.com"
-                  className="text-blue-600 hover:text-blue-800 font-medium"
+                  className="text-blue-600 hover:text-blue-800 font-medium underline"
                 >
                   researchanalyst92@gmail.com
                 </a>
@@ -62,7 +62,7 @@ export default function Accessibility() {
                 <a
                   href="https://www.equitybygk.com/accessibility"
                   target="_blank"
-                  className="text-blue-600 hover:text-blue-800 font-medium"
+                  className="text-blue-600 hover:text-blue-800 font-medium underline"
                 >
                   www.equitybygk.com/accessibility
                 </a>
@@ -74,7 +74,7 @@ export default function Accessibility() {
         {/* Process Section */}
         <section className="mb-12 bg-white p-8 rounded-2xl shadow-xl border border-gray-200 hover:shadow-2xl transition-shadow duration-300">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-3 shadow-md">
+            <div className="bg-yellow-500 w-10 h-10 rounded-full flex items-center justify-center text-black font-bold mr-3 shadow-md">
               2
             </div>
             <h2 className="text-2xl font-bold text-gray-900">Process</h2>
@@ -119,7 +119,7 @@ export default function Accessibility() {
                 <span className="font-medium">Email:</span>{" "}
                 <a
                   href="mailto:researchanalyst92@gmail.com"
-                  className="text-blue-600 hover:text-blue-800"
+                  className="text-blue-600 hover:text-blue-800 underline"
                 >
                   researchanalyst92@gmail.com
                 </a>
@@ -138,7 +138,7 @@ export default function Accessibility() {
                 <span className="font-medium">Email:</span>{" "}
                 <a
                   href="mailto:researchanalyst92@gmail.com"
-                  className="text-blue-600 hover:text-blue-800"
+                  className="text-blue-600 hover:text-blue-800 underline"
                 >
                   researchanalyst92@gmail.com
                 </a>

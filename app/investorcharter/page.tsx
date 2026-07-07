@@ -6,7 +6,7 @@ export default function InvestorCharter() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
 
-      <main className="container mx-auto py-10 px-4 ">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-10 px-4 ">
         {/* Creative Header */}
         <div className="relative mb-12 text-center">
           {/* <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
@@ -47,7 +47,7 @@ export default function InvestorCharter() {
           <div className="absolute top-4 right-4 w-2 h-2 bg-yellow-500 rounded-full"></div>
 
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">
               A
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -79,7 +79,7 @@ export default function InvestorCharter() {
         {/* Business Details Section */}
         <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">
               B
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -141,7 +141,7 @@ export default function InvestorCharter() {
         {/* Services Section */}
         <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">
               C
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -290,7 +290,7 @@ export default function InvestorCharter() {
         {/* Grievance Section */}
         <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">
               D
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -359,7 +359,7 @@ Administration and Supervisory Body (RAASB)</u>
                 {/* Rights of Investors Section */}
         <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-yellow-300 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">
               E
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -408,7 +408,7 @@ Administration and Supervisory Body (RAASB)</u>
         {/* Expectations Section */}
         <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">
               F
             </div>
             <h2 className="text-2xl font-bold text-gray-900">
@@ -461,7 +461,7 @@ Administration and Supervisory Body (RAASB)</u>
                     link:
                     <a
                       href="https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=14"
-                      className="text-blue-600 hover:underline ml-1"
+                      className="text-blue-600 hover:underline underline ml-1"
                     >
 https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi
  =yes&intmId=14

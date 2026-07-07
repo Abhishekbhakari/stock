@@ -146,6 +146,7 @@ export default function Home() {
       <div className="relative z-10">
         <Navbar />
 
+        <main id="main-content" tabIndex={-1}>
         {/* Hero Section */}
         <div className="bg-black pb-10 md:pb-18">
           <Hero />
@@ -217,7 +218,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-center">
                     {/* Replace this with your actual QR image */}
-                    <img src="/upi.jpg" alt="UPI QR Code" className="h-40 w-40 rounded-xl" />
+                    <img src="/upi.jpg" alt="QR code to pay advisory fees via UPI to gauravkulkarni.ra@validpnb" className="h-40 w-40 rounded-xl" />
                     {/* <div className="h-40 w-40 rounded-xl border border-dashed border-white/25 bg-black/70 flex items-center justify-center text-[10px] text-white/50">
                       QR CODE IMAGE
                     </div> */}
@@ -238,6 +239,7 @@ export default function Home() {
             <CTA />
           </div>
         </div>
+        </main>
 
         <Footer />
       </div>

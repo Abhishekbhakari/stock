@@ -5,7 +5,7 @@ export default function MostImportantTermsandConditions() {
   return (
     <div className="flex min-h-screen flex-col bg-[#121421]">
       <Navbar />
-      <main className="container py-12">
+      <main id="main-content" tabIndex={-1} className="container py-12">
         <h1 className="text-4xl font-bold mb-8 text-center text-gray-100">Most Important Terms and Conditions (MITC)</h1>
 
         <section className="mb-12 bg-white p-6 rounded-lg shadow-md">
@@ -55,17 +55,17 @@ export default function MostImportantTermsandConditions() {
                   <p className="ml-4">The client should first contact the RA using the details on its website or following contact details:</p>
                   <div className="bg-gray-100 p-4 rounded-md ml-4 mt-2">
                     <p>Name: Gaurav Shriram Kulkarni</p>
-                    <p>Email: <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600">researchanalyst92@gmail.com</a></p>
+                    <p>Email: <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 underline">researchanalyst92@gmail.com</a></p>
                     <p>Phone No: 9970664299</p>
                   </div>
                 </div>
                 <div className="mt-4">
                   <p className="font-semibold">Step 2:</p>
-                  <p className="ml-4">If the resolution is unsatisfactory, the client can also lodge grievances through SEBI's SCORES platform at <a href="http://www.scores.sebi.gov.in" className="text-blue-600">www.scores.sebi.gov.in</a></p>
+                  <p className="ml-4">If the resolution is unsatisfactory, the client can also lodge grievances through SEBI's SCORES platform at <a href="http://www.scores.sebi.gov.in" className="text-blue-600 underline">www.scores.sebi.gov.in</a></p>
                 </div>
                 <div className="mt-4">
                   <p className="font-semibold">Step 3:</p>
-                  <p className="ml-4">The client may also consider the Online Dispute Resolution (ODR) through the Smart ODR portal at <a href="https://smartodr.in" className="text-blue-600">https://smartodr.in</a></p>
+                  <p className="ml-4">The client may also consider the Online Dispute Resolution (ODR) through the Smart ODR portal at <a href="https://smartodr.in" className="text-blue-600 underline">https://smartodr.in</a></p>
                 </div>
               </li>
               <li>

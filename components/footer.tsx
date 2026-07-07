@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container bg-white flex flex-col gap-8 py-8 md:flex-row md:py-12">
         <div className="flex-1 space-y-4">
           <h2 className="font-black text-black text-4xl ">Gaurav Shriram Kulkarni</h2>
-          <p className="text-6xl font-bold text-muted-foreground">
+          <p className="text-6xl font-bold text-gray-600">
             Believing in the Numbers Rather than the Story
           </p>
           <p className="text-black">SEBI Registration number - INH000009311</p>
@@ -20,7 +20,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   Home
                 </Link>
@@ -28,7 +28,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/InvestmentPhilosophy"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   Investment Philosophy
                 </Link>
@@ -36,7 +36,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   Contact Us
                 </Link>
@@ -45,7 +45,7 @@ export default function Footer() {
               {/* <li>
                 <Link
                   href="/products"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   Products
                 </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
               {/* <li>
                 <Link
                   href="/about"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   About Us
                 </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/investorcharter"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Investor Chartor
                 </Link>
@@ -74,7 +74,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/investorcomplaints"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Investor Complaints
                 </Link>
@@ -82,7 +82,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/sebiregistrationcirtificate"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   SEBI Registration Certificate
                 </Link>
@@ -90,7 +90,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/grievance-redressal-mechanism"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Grievance Redressal Mechanism
                 </Link>
@@ -98,7 +98,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/accessibility"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Grievance Redressal Mechanism (Accessibility Compliance)
                 </Link>
@@ -106,20 +106,20 @@ export default function Footer() {
               <li>
                 <Link
                   href="/disclosures-and-disclaimers"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Disclosures & Disclaimers
                 </Link>
               </li>
               <li>
-                <Link href="/mitc" className="text-gray-400 hover:text-black">
+                <Link href="/mitc" className="text-gray-700 hover:text-black">
                   MITC
                 </Link>
               </li>
               <li>
                 <Link
                   href="/terms-and-conditions"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Terms & Conditions
                 </Link>
@@ -127,7 +127,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/aml-cdd-policy"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   AML CDD Policy
                 </Link>
@@ -135,7 +135,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/code-of-conduct"
-                  className="text-gray-400 hover:text-black"
+                  className="text-gray-700 hover:text-black"
                 >
                   Code of Conduct
                 </Link>
@@ -143,7 +143,7 @@ export default function Footer() {
               {/* <li>
                 <Link
                   href="/contact"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   Contact Us
                 </Link>
@@ -151,7 +151,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/careers"
-                  className="text-muted-foreground transition-colors hover:text-black"
+                  className="text-gray-700 transition-colors hover:text-black"
                 >
                   Careers
                 </Link>
@@ -163,21 +163,21 @@ export default function Footer() {
             <div className="flex space-x-4">
               <Link
                 href="https://github.com/amanesoft"
-                className="text-muted-foreground transition-colors hover:text-black"
+                className="text-gray-700 transition-colors hover:text-black"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
                 href="https://twitter.com/amanesoft"
-                className="text-muted-foreground transition-colors hover:text-black"
+                className="text-gray-700 transition-colors hover:text-black"
               >
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
                 href="https://linkedin.com/company/amanesoft"
-                className="text-muted-foreground transition-colors hover:text-black"
+                className="text-gray-700 transition-colors hover:text-black"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
@@ -251,7 +251,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="container border-t py-6">
-        <p className="text-center text-sm text-muted-foreground">
+        <p className="text-center text-sm text-gray-600">
           © {new Date().getFullYear()} Stock, Inc. All rights reserved.
         </p>
       </div>

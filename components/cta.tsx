@@ -46,7 +46,7 @@ India
 
             {/* Image Section */}
             <div className="md:w-1/3 mt-8 md:mt-0 flex justify-end">
-              <img src="/CTAIMG.png" alt="Metrics Report" className="w-full max-w-sm drop-shadow-md" />
+              <img src="/CTAIMG.png" alt="" className="w-full max-w-sm drop-shadow-md" />
             </div>
           </div>
 

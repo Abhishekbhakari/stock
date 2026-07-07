@@ -42,7 +42,7 @@ export default function WhatWeDoSection() {
       case "gold":
         return {
           shadow: "bg-[#F5C11E]",
-          heading: "text-[#F5C11E]",
+          heading: "text-[#8a6a00]",
           background: "bg-[#F5C11E]/10",
         };
       case "blue":
@@ -120,7 +120,7 @@ export default function WhatWeDoSection() {
                       zIndex: index === 1 ? 30 : 10,
                     }}
                   >
-                    <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{item.title}</p>
+                    <h3 className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{item.title}</h3>
                     <p className="text-black">{item.description}</p>
                   </div>
                 );
@@ -135,7 +135,7 @@ export default function WhatWeDoSection() {
                 <div key={index} className="relative">
                   <div className={`absolute inset-0 ${color.shadow} translate-x-2 bg-${color.background} translate-y-2`} />
                   <div className="relative bg-white border border-black rounded-md shadow-md p-6 h-full flex flex-col">
-                    <p className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{item.title}</p>
+                    <h3 className={`text-2xl font-extrabold mb-2 ${color.heading}`}>{item.title}</h3>
                     <p className="text-black">{item.description}</p>
                   </div>
                 </div>

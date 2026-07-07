@@ -6,7 +6,7 @@ export default function DisclosuresAndDisclaimers() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
       
-      <main className="container mx-auto py-10 px-4 max-w-5xl space-y-10">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-10 px-4 max-w-5xl space-y-10">
         {/* Creative Header */}
         <div className="relative mb-10 text-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
@@ -27,7 +27,7 @@ export default function DisclosuresAndDisclaimers() {
           <div className="absolute top-4 right-4 w-2 h-2 bg-yellow-500 rounded-full"></div>
           
           <div className="flex flex-col md:flex-row md:items-center mb-6">
-            <div className="bg-yellow-500 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 mb-4 md:mb-0">
+            <div className="bg-yellow-500 w-16 h-16 rounded-full flex items-center justify-center text-black font-bold text-xl mr-4 mb-4 md:mb-0">
               GSK
             </div>
             <div>
@@ -57,7 +57,7 @@ export default function DisclosuresAndDisclaimers() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a>
+                  <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a>
                 </li>
               </ul>
             </div>
@@ -74,7 +74,7 @@ export default function DisclosuresAndDisclaimers() {
         {/* Disclosure Document */}
         <section className="bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">A</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">A</div>
             <h2 className="text-2xl font-bold text-gray-900">Descriptions about "Research Analyst"</h2>
           </div>
           
@@ -82,7 +82,7 @@ export default function DisclosuresAndDisclaimers() {
             {/* History */}
             <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500">
               <div className="flex items-center mb-3">
-                <div className="bg-yellow-500 w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3">1</div>
+                <div className="bg-yellow-500 w-6 h-6 rounded-full flex items-center justify-center text-black font-bold text-xs mr-3">1</div>
                 <h3 className="text-lg font-semibold text-gray-900">History, Present Business and Background</h3>
               </div>
               <p className="text-gray-700">
@@ -95,7 +95,7 @@ export default function DisclosuresAndDisclaimers() {
             {/* Terms and Conditions */}
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
               <div className="flex items-center mb-3">
-                <div className="bg-blue-500 w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3">2</div>
+                <div className="bg-blue-700 w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3">2</div>
                 <h3 className="text-lg font-semibold text-gray-900">Terms and Conditions of Research and Recommendation Services</h3>
               </div>
               <p className="text-gray-700">
@@ -132,7 +132,7 @@ export default function DisclosuresAndDisclaimers() {
         {/* Research Disclosures */}
         <section className="bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">B</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">B</div>
             <h2 className="text-2xl font-bold text-gray-900">Disclosures with respect to Research and Recommendations Services</h2>
           </div>
           
@@ -219,7 +219,7 @@ export default function DisclosuresAndDisclaimers() {
         {/* Statutory Disclaimers */}
         <section className="bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">C</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">C</div>
             <h2 className="text-2xl font-bold text-gray-900">Statutory Disclaimers</h2>
           </div>
           

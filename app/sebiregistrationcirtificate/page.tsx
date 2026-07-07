@@ -6,7 +6,7 @@ export default function SEBIRegistrationCertificate() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
       
-      <main className="container mx-auto py-10 px-4 max-w-4xl">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-10 px-4 max-w-4xl">
         {/* Creative Header */}
         <div className="relative mb-10 text-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
