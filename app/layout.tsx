@@ -2,6 +2,7 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import type React from "react"
 import type { Metadata } from "next"
+import Script from "next/script"
 import MouseMoveEffect from "@/components/mouse-move-effect"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -33,6 +34,25 @@ export default function RootLayout({
         </a>
         <MouseMoveEffect />
         {children}
+
+        {/*
+          EnableUser accessibility widget.
+          #8a6a00 is the site's dark gold (see testimonialssection.tsx). The widget
+          paints the primary both on its launcher (white icon over it) and as the menu
+          icons on its fixed near-white panel, so the accent has to clear 4.5:1 in both
+          directions — the brighter site golds (#FDCD00 / yellow-400/500) sit at ~1.5:1
+          and would make the menu icons unreadable. This shade reads as the same gold
+          and measures 5.07:1 on the launcher, 4.66:1 on the panel.
+        */}
+        <Script id="enablestack-config" strategy="beforeInteractive">
+          {`window.ENABLESTACK_CONFIG = {
+  colors: { primary: '#8a6a00', secondary: '#ffffff' },
+  icon: 'default',
+  widgetPosition: { side: 'left' },
+  accessibilityStatementUrl: '/accessibility'
+};`}
+        </Script>
+        <Script src="/enablestack-widget.js" strategy="afterInteractive" />
       </body>
     </html>
   )
