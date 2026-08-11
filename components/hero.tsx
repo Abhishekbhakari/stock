@@ -78,7 +78,7 @@ export default function Hero() {
         >
           <Image 
             src="/banner5.png" // Make sure to place the image in the /public folder
-            alt="Stock Market Illustration"
+            alt=""
             width={600}
             height={600}
             priority

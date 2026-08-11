@@ -6,7 +6,7 @@ export default function CodeofConduct() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
       
-      <main className="container mx-auto py-10 px-4 max-w-7xl">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-10 px-4 max-w-7xl">
         {/* Creative Header */}
         <div className="relative mb-10 text-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
@@ -31,7 +31,7 @@ export default function CodeofConduct() {
           {/* Introduction */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">1</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">1</div>
               <h2 className="text-2xl font-bold text-gray-900">Introduction</h2>
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
@@ -53,7 +53,7 @@ export default function CodeofConduct() {
           {/* Applicability */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">2</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">2</div>
               <h2 className="text-2xl font-bold text-gray-900">Applicability</h2>
             </div>
             <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
@@ -70,7 +70,7 @@ export default function CodeofConduct() {
           {/* Code of Conduct */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">3</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">3</div>
               <h2 className="text-2xl font-bold text-gray-900">Code of Conduct</h2>
             </div>
             
@@ -79,7 +79,7 @@ export default function CodeofConduct() {
               <div className="space-y-6">
                 <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
                   <h3 className="font-semibold text-gray-900 mb-2 flex items-center">
-                    <span className="bg-yellow-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.1</span>
+                    <span className="bg-yellow-500 text-black w-6 h-6 rounded-full flex items-center justify-center mr-2">3.1</span>
                     Honesty and Good Faith
                   </h3>
                   <p className="text-gray-700">
@@ -90,7 +90,7 @@ export default function CodeofConduct() {
                 
                 <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
                   <h3 className="font-semibold text-gray-900 mb-2 flex items-center">
-                    <span className="bg-blue-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.2</span>
+                    <span className="bg-blue-700 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.2</span>
                     Diligence
                   </h3>
                   <p className="text-gray-700">
@@ -159,7 +159,7 @@ export default function CodeofConduct() {
               <div className="space-y-6">
                 <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
                   <h3 className="font-semibold text-gray-900 mb-2 flex items-center">
-                    <span className="bg-yellow-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.6</span>
+                    <span className="bg-yellow-500 text-black w-6 h-6 rounded-full flex items-center justify-center mr-2">3.6</span>
                     Professional Standard
                   </h3>
                   <p className="text-gray-700">
@@ -170,7 +170,7 @@ export default function CodeofConduct() {
                 
                 <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
                   <h3 className="font-semibold text-gray-900 mb-2 flex items-center">
-                    <span className="bg-blue-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.7</span>
+                    <span className="bg-blue-700 text-white w-6 h-6 rounded-full flex items-center justify-center mr-2">3.7</span>
                     Compliance
                   </h3>
                   <p className="text-gray-700">
@@ -240,7 +240,7 @@ export default function CodeofConduct() {
           {/* Contact Information */}
           <div className="mb-10 text-black">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">4</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">4</div>
               <h2 className="text-2xl font-bold text-gray-900">About Us</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -280,7 +280,7 @@ export default function CodeofConduct() {
                   </li>
                   <li className="flex">
                     <span className="font-medium w-40">Email No.:</span>
-                    <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a>
+                    <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a>
                   </li>
                 </ul>
               </div>

@@ -24,7 +24,7 @@ const TermsAndConditions = () => {
       </header> */}
 
       {/* Main Content */}
-      <main className="container mx-auto py-8 px-4 ">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-8 px-4 ">
         {/* Document Header */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8 border-4 border-yellow-300 relative">
           
@@ -57,7 +57,7 @@ const TermsAndConditions = () => {
           {/* Section 1 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">1</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">1</div>
               <h2 className="text-2xl font-bold text-gray-900">Acceptance of Research Services</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -69,7 +69,7 @@ const TermsAndConditions = () => {
           {/* Section 2 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">2</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">2</div>
               <h2 className="text-2xl font-bold text-gray-900">Obligations on RA and Client</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -80,7 +80,7 @@ const TermsAndConditions = () => {
           {/* Section 3 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">3</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">3</div>
               <h2 className="text-2xl font-bold text-gray-900">Client Information and KYC Requirements</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -92,7 +92,7 @@ const TermsAndConditions = () => {
           {/* Section 4 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">4</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">4</div>
               <h2 className="text-2xl font-bold text-gray-900">Standard Terms of Service</h2>
             </div>
             <p className="font-medium mb-4 text-black">By subscribing to the research services, <strong className="text-gray-900">the client</strong> confirms the following:</p>
@@ -129,7 +129,7 @@ const TermsAndConditions = () => {
           {/* Section 6 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">6</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">6</div>
               <h2 className="text-2xl font-bold text-gray-900">Fees and Payment Terms</h2>
             </div>
             <div className="bg-yellow-50 p-5 text-gray-900 rounded-lg border border-yellow-200">
@@ -143,7 +143,7 @@ const TermsAndConditions = () => {
           {/* Section 7 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">7</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">7</div>
               <h2 className="text-2xl font-bold text-gray-900">Risk Factors</h2>
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
@@ -159,7 +159,7 @@ const TermsAndConditions = () => {
           {/* Section 8 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">8</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">8</div>
               <h2 className="text-2xl font-bold text-gray-900">Conflict of Interest</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -171,7 +171,7 @@ const TermsAndConditions = () => {
           {/* Section 9 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">9</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">9</div>
               <h2 className="text-2xl font-bold text-gray-900">Termination of Services and Refunds</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -185,7 +185,7 @@ const TermsAndConditions = () => {
           {/* Section 10 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">10</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">10</div>
               <h2 className="text-2xl font-bold text-gray-900">Grievance Redressal and Dispute Resolution</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -199,34 +199,34 @@ const TermsAndConditions = () => {
               <li>Contact details of designated person for escalation of grievances are as below-
                 <ul className="list-disc pl-8 mt-2 space-y-1">
                   <li>Name- Gaurav Shriram Kulkarni</li>
-                  <li>Email- <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a></li>
+                  <li>Email- <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a></li>
                 </ul>
               </li>
               <li>RA shall redress grievances of the client in a timely and transparent manner.</li>
               <li>RA shall resolve grievances within seven business working days or as specified by SEBI under RA Regulations.</li>
-              <li>In case you are not satisfied with our response you can lodge your grievance with SEBI at <a href="https://scores.sebi.gov.in/" className="text-blue-600 hover:underline">https://scores.sebi.gov.in/</a> or you may also write to any of the offices of SEBI. SCORES may be accessed thorough SCORES mobile application as well, same can be downloaded from below link:
+              <li>In case you are not satisfied with our response you can lodge your grievance with SEBI at <a href="https://scores.sebi.gov.in/" className="text-blue-600 hover:underline underline">https://scores.sebi.gov.in/</a> or you may also write to any of the offices of SEBI. SCORES may be accessed thorough SCORES mobile application as well, same can be downloaded from below link:
                 <br />
-                <a href="https://play.google.com/store/apps/details?id=com.ionicframework.sebi236330" className="text-blue-600 hover:underline">https://play.google.com/store/apps/details?id=com.ionicframework.sebi236330</a>
+                <a href="https://play.google.com/store/apps/details?id=com.ionicframework.sebi236330" className="text-blue-600 hover:underline underline">https://play.google.com/store/apps/details?id=com.ionicframework.sebi236330</a>
               </li>
               <li>Disputes between the RA and the client may be resolved through arbitration or any other modes or mechanism as specified by SEBI from time to time.</li>
             </ul>
-            <p className="mt-4 text-gray-700">ODR Portal could be accessed, if unsatisfied with the response. Your attention is drawn to the SEBI circular no. SEBI/HO/OIAE/OIAE_IAD-1/P/CIR/2023/131 dated July 31, 2023, on "Online Resolution of Disputes in the Indian Securities Market". A common Online Dispute Resolution Portal ("ODR Portal") which harnesses conciliation and online arbitration for resolution of disputes arising in the Indian Securities Market has been established. ODR Portal can be accessed via the following link - <a href="https://smartodr.in/" className="text-blue-600 hover:underline">https://smartodr.in/</a></p>
+            <p className="mt-4 text-gray-700">ODR Portal could be accessed, if unsatisfied with the response. Your attention is drawn to the SEBI circular no. SEBI/HO/OIAE/OIAE_IAD-1/P/CIR/2023/131 dated July 31, 2023, on "Online Resolution of Disputes in the Indian Securities Market". A common Online Dispute Resolution Portal ("ODR Portal") which harnesses conciliation and online arbitration for resolution of disputes arising in the Indian Securities Market has been established. ODR Portal can be accessed via the following link - <a href="https://smartodr.in/" className="text-blue-600 hover:underline underline">https://smartodr.in/</a></p>
           </div>
 
           {/* Section 11 */}
           <div className="mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">11</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">11</div>
               <h2 className="text-2xl font-bold text-gray-900">Mandatory Notices</h2>
             </div>
             <p className="text-gray-700">Clients are advised and requested to familiarize themselves with SEBI's guidelines, including the Do's and Don'ts while dealing with RAs, as specified in SEBI's Master Circular No. SEBI/HO/MIRSD-POD-1/P/CIR/2024/49 dated May 21, 2024, or as updated by SEBI from time to time.</p>
-            <p className="mt-3 text-gray-700">Link to Master circular for reference- <a href="https://www.sebi.gov.in/sebi_data/attachdocs/may-2024/1716290553655.pdf" className="text-blue-600 hover:underline">https://www.sebi.gov.in/sebi_data/attachdocs/may-2024/1716290553655.pdf</a></p>
+            <p className="mt-3 text-gray-700">Link to Master circular for reference- <a href="https://www.sebi.gov.in/sebi_data/attachdocs/may-2024/1716290553655.pdf" className="text-blue-600 hover:underline underline">https://www.sebi.gov.in/sebi_data/attachdocs/may-2024/1716290553655.pdf</a></p>
           </div>
 
           {/* Section 13 */}
           <div className="mb-8">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">13</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">13</div>
               <h2 className="text-2xl font-bold text-gray-900">Most Important Terms and Conditions (MITC)</h2>
             </div>
             <ul className="list-disc pl-8 space-y-3 text-gray-700">
@@ -253,11 +253,11 @@ const TermsAndConditions = () => {
                 <p className="mt-2 font-medium">Step 1: The client should first contact the RA using the details on its website or following contact details:</p>
                 <div className="bg-gray-100 p-4 rounded-md mt-2">
                   <p>Name: Gaurav Shriram Kulkarni</p>
-                  <p>Email: <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a></p>
+                  <p>Email: <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a></p>
                   <p>Ph No: 9970664299</p>
                 </div>
-                <p className="mt-2 font-medium">Step 2: If the resolution is unsatisfactory, the client can also lodge grievances through SEBI's SCORES platform at <a href="http://www.scores.sebi.gov.in" className="text-blue-600 hover:underline">www.scores.sebi.gov.in</a></p>
-                <p className="font-medium">Step 3: The client may also consider the Online Dispute Resolution (ODR) through the Smart ODR portal at <a href="https://smartodr.in" className="text-blue-600 hover:underline">https://smartodr.in</a></p>
+                <p className="mt-2 font-medium">Step 2: If the resolution is unsatisfactory, the client can also lodge grievances through SEBI's SCORES platform at <a href="http://www.scores.sebi.gov.in" className="text-blue-600 hover:underline underline">www.scores.sebi.gov.in</a></p>
+                <p className="font-medium">Step 3: The client may also consider the Online Dispute Resolution (ODR) through the Smart ODR portal at <a href="https://smartodr.in" className="text-blue-600 hover:underline underline">https://smartodr.in</a></p>
               </li>
               <li>Clients are required to keep contact details, including email id and mobile number/s updated with the RA at all times.</li>
               <li>The RA shall never ask for the client's login credentials and OTPs for the client's Trading Account Demat Account and Bank Account. Never share such information with anyone including RA.</li>
@@ -341,7 +341,7 @@ const TermsAndConditions = () => {
                   </tr>
                   <tr>
                     <td className="font-medium p-4 border-r border-gray-200">Email No.:</td>
-                    <td className="p-4"><a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a></td>
+                    <td className="p-4"><a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a></td>
                   </tr>
                 </tbody>
               </table>

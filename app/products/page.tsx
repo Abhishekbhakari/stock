@@ -6,7 +6,7 @@ export default function Products() {
   return (
     <div className="flex min-h-screen flex-col bg-[#121421]">
       <Navbar />
-      <main className="container py-12">
+      <main id="main-content" tabIndex={-1} className="container py-12">
         <h1 className="text-4xl font-bold mb-8 text-center text-gray-100">Investor Charter</h1>
 
         <section className="mb-12 bg-white p-6 rounded-lg shadow-md">

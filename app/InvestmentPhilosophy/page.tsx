@@ -421,6 +421,7 @@ export default function InvestmentPhilosophy() {
 
       <div className="relative z-10">
         <Navbar />
+        <main id="main-content" tabIndex={-1}>
 
         {/* Enhanced Hero Section */}
         <section className="text-center py-24 px-6 md:px-10 relative">
@@ -702,6 +703,7 @@ export default function InvestmentPhilosophy() {
           <div className="text-gray-500 text-sm mt-2">The Father of Value Investing</div>
         </section> */}
 
+        </main>
         <Footer />
       </div>
 

@@ -6,7 +6,7 @@ export default function InvestorCharter() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
       
-      <main className="container mx-auto py-10 px-4 max-w-5xl">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-10 px-4 max-w-5xl">
         {/* Creative Header */}
         <div className="relative mb-10 text-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
@@ -27,7 +27,7 @@ export default function InvestorCharter() {
           <div className="absolute top-4 right-4 w-2 h-2 bg-yellow-500 rounded-full"></div>
           
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">1</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">1</div>
             <h2 className="text-2xl font-bold text-gray-900">Grievance Redressal Procedure</h2>
           </div>
           
@@ -52,7 +52,7 @@ export default function InvestorCharter() {
                   You may approach Proprietor/Research Analyst (<strong>Gaurav Kulkarni</strong>) at:
                   <div className="mt-3 ml-4 p-4 bg-gray-100 rounded-lg">
                     <p>
-                      Email: <a href="mailto:ashish.arole@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a>
+                      Email: <a href="mailto:ashish.arole@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a>
                     </p>
                     <p>Phone:"9970664299",</p>
                     <p className="mt-2 text-sm italic">
@@ -79,7 +79,7 @@ export default function InvestorCharter() {
         {/* Contact Details Section */}
         <section className="mb-12 bg-white p-8 rounded-xl shadow-lg border-2 border-gray-200 relative">
           <div className="flex items-center mb-6">
-            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">2</div>
+            <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">2</div>
             <h2 className="text-2xl font-bold text-gray-900">
               Grievance Redressal Contact Details
             </h2>
@@ -149,7 +149,7 @@ export default function InvestorCharter() {
       <td className="px-6 py-4 border border-gray-300">{row[2]}</td>
       <td className="px-6 py-4 border border-gray-300">{row[3]}</td>
       <td className="px-6 py-4 border border-gray-300">
-        <a href={`mailto:${row[4]}`} className="text-blue-600 hover:underline">{row[4]}</a>
+        <a href={`mailto:${row[4]}`} className="text-blue-600 hover:underline underline">{row[4]}</a>
       </td>
       <td className="px-6 py-4 border border-gray-300">{row[5]}</td>
     </tr>
@@ -168,7 +168,7 @@ export default function InvestorCharter() {
                 <h3 className="font-semibold text-lg text-gray-900 mb-2">Important Notice</h3>
                 <p className="text-gray-700">
                   For unresolved grievances, investors may approach SEBI through the SCORES portal at 
-                  <a href="https://scores.sebi.gov.in" className="text-blue-600 hover:underline ml-1">https://scores.sebi.gov.in</a>. 
+                  <a href="https://scores.sebi.gov.in" className="text-blue-600 hover:underline underline ml-1">https://scores.sebi.gov.in</a>. 
                   SCORES facilitates tracking the status of the complaint. For any queries, feedback or assistance, please contact SEBI Office on Toll Free Helpline at 1800 22 7575 / 1800 266 7575
                 </p>
               </div>

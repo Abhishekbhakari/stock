@@ -6,7 +6,7 @@ export default function AMLCDDPolicy() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 font-sans">
       <Navbar />
       
-      <main className="container mx-auto py-10 px-4 max-w-7xl">
+      <main id="main-content" tabIndex={-1} className="container mx-auto py-10 px-4 max-w-7xl">
         {/* Creative Header */}
         <div className="relative mb-10 text-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
@@ -31,7 +31,7 @@ export default function AMLCDDPolicy() {
           {/* Preamble */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">1</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">1</div>
               <h2 className="text-2xl font-bold text-gray-900">Preamble</h2>
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
@@ -50,7 +50,7 @@ export default function AMLCDDPolicy() {
           {/* Objectives */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">2</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">2</div>
               <h2 className="text-2xl font-bold text-gray-900">Objectives of the Policy</h2>
             </div>
             <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
@@ -65,7 +65,7 @@ export default function AMLCDDPolicy() {
           {/* Financial Intelligence Unit */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">3</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">3</div>
               <h2 className="text-2xl font-bold text-gray-900">Financial Intelligence Unit-India (FIU-IND)</h2>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-gray-500">
@@ -80,7 +80,7 @@ export default function AMLCDDPolicy() {
           {/* Suspicious Transactions */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">4</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">4</div>
               <h2 className="text-2xl font-bold text-gray-900">Suspicious Transactions</h2>
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
@@ -99,7 +99,7 @@ export default function AMLCDDPolicy() {
           {/* Money Laundering */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">5</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">5</div>
               <h2 className="text-2xl font-bold text-gray-900">What is Money Laundering?</h2>
             </div>
             <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
@@ -116,7 +116,7 @@ export default function AMLCDDPolicy() {
           {/* Stages of Money Laundering */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">6</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">6</div>
               <h2 className="text-2xl font-bold text-gray-900">Stages of Money Laundering</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -155,7 +155,7 @@ proceeds can enter banks in the form of large cash deposits.
           {/* AML Measures */}
             <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">7</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">7</div>
               <h2 className="text-2xl font-bold text-gray-900">Policy and Procedures for Anti Money Laundering Measures</h2>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-gray-500">
@@ -194,7 +194,7 @@ proceeds can enter banks in the form of large cash deposits.
 
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">8</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">8</div>
               <h2 className="text-2xl font-bold text-gray-900">Client Due Diligence Process</h2>
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
@@ -220,7 +220,7 @@ proceeds can enter banks in the form of large cash deposits.
           {/* Transaction Monitoring */}
             <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">9</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">9</div>
               <h2 className="text-2xl font-bold text-gray-900">Transaction Monitoring and Reporting (Suspicious Transactions Reporting (STR))</h2>
             </div>
             <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
@@ -255,7 +255,7 @@ proceeds can enter banks in the form of large cash deposits.
           {/* Reporting to FIU-IND */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">9.1</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">9.1</div>
               <h2 className="text-2xl font-bold text-gray-900">Reporting to FIU -- India</h2>
             </div>
             <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
@@ -277,7 +277,7 @@ transactions to The Director, Financial Intelligence Unit India (FIU – IND) at
           {/* Maintenance of Records */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">10</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">10</div>
               <h2 className="text-2xl font-bold text-gray-900">Maintenance of Records</h2>
             </div>
             <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
@@ -292,7 +292,7 @@ any regulatory action till the time the same is resolved.
           {/* Audit */}
             <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">11</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">11</div>
               <h2 className="text-2xl font-bold text-gray-900">Audit</h2>
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
@@ -328,7 +328,7 @@ any regulatory action till the time the same is resolved.
           {/* Role of Staff */}
             <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">12</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">12</div>
               <h2 className="text-2xl font-bold text-gray-900">Role of Staff</h2>
             </div>
             <div className="bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
@@ -371,7 +371,7 @@ any regulatory action till the time the same is resolved.
           {/* Communication of Policy */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">13</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">13</div>
               <h2 className="text-2xl font-bold text-gray-900">Communication of Policy</h2>
             </div>
             <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-blue-500">
@@ -392,7 +392,7 @@ week of April to spread awareness of the same among all the relevant person(s).
           {/* Compliance */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">14</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">14</div>
               <h2 className="text-2xl font-bold text-gray-900">Compliance with Relevant Statutory and Regulatory Requirements</h2>
             </div>
             <div className="bg-green-50 p-5 rounded-lg border-l-4 border-green-500">
@@ -408,7 +408,7 @@ regulatory requirements.
           {/* Cooperation */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">15</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">15</div>
               <h2 className="text-2xl font-bold text-gray-900">Co-operation with the Relevant Law Enforcement Authorities</h2>
             </div>
             <div className="bg-purple-50 p-5 rounded-lg border-l-4 border-purple-500">
@@ -424,7 +424,7 @@ as per the requirement.
           {/* Policy Review */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">16</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">16</div>
               <h2 className="text-2xl font-bold text-gray-900">Review of Policy and Procedures</h2>
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-500">
@@ -440,7 +440,7 @@ guidelines with respect to prevention of ML & TF.
           {/* Contact Information */}
           <div className="mb-10">
             <div className="flex items-center mb-4">
-              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold mr-3">17</div>
+              <div className="bg-yellow-500 w-8 h-8 rounded-full flex items-center justify-center text-black font-bold mr-3">17</div>
               <h2 className="text-2xl font-bold text-gray-900">About Us</h2>
             </div>
             <div className="bg-gray-50 p-5 text-gray-600 rounded-lg border-l-4 border-gray-500">
@@ -475,7 +475,7 @@ guidelines with respect to prevention of ML & TF.
                 </li>
                 <li className="flex">
                   <span className="font-medium w-40">Email No.:</span>
-                  <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline">researchanalyst92@gmail.com</a>
+                  <a href="mailto:researchanalyst92@gmail.com" className="text-blue-600 hover:underline underline">researchanalyst92@gmail.com</a>
                 </li>
               </ul>
             </div>
